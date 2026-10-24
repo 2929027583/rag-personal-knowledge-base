@@ -1,0 +1,114 @@
+{
+  "metrics": {
+    "n": 17,
+    "p50": 0.7255546999999751,
+    "p95": 1.0132458999996743,
+    "mean": 0.767156764705867,
+    "min": 0.5305586999998013,
+    "max": 1.4106274000000667
+  },
+  "records": [
+    {
+      "question": "他有什么好处",
+      "rewritten": "继承有什么好处",
+      "changed": true,
+      "latency": 0.8592
+    },
+    {
+      "question": "那 HLOOKUP 呢",
+      "rewritten": "HLOOKUP 的语法是什么",
+      "changed": true,
+      "latency": 0.5569
+    },
+    {
+      "question": "那多条件计数呢",
+      "rewritten": "多条件计数在 Excel 中如何使用？",
+      "changed": true,
+      "latency": 0.6294
+    },
+    {
+      "question": "那怎么删除",
+      "rewritten": "Linux 怎么删除用户",
+      "changed": true,
+      "latency": 0.6299
+    },
+    {
+      "question": "那按名字找呢",
+      "rewritten": "find 命令如何按文件名查找文件？",
+      "changed": true,
+      "latency": 0.7256
+    },
+    {
+      "question": "它有什么好处",
+      "rewritten": "FastAPI 的依赖注入有什么好处",
+      "changed": true,
+      "latency": 0.9909
+    },
+    {
+      "question": "它和闭包什么关系",
+      "rewritten": "装饰器和闭包是什么关系",
+      "changed": true,
+      "latency": 1.0132
+    },
+    {
+      "question": "那深拷贝呢",
+      "rewritten": "什么是深拷贝",
+      "changed": true,
+      "latency": 0.7286
+    },
+    {
+      "question": "那怎么实时看日志",
+      "rewritten": "tail 命令怎么实时查看日志文件末尾内容？",
+      "changed": true,
+      "latency": 1.4106
+    },
+    {
+      "question": "那改所有者呢",
+      "rewritten": "修改文件所有者用什么命令？",
+      "changed": true,
+      "latency": 0.5306
+    },
+    {
+      "question": "那反向查找怎么做",
+      "rewritten": "VLOOKUP 如何实现反向查找？",
+      "changed": true,
+      "latency": 0.9353
+    },
+    {
+      "question": "那怎么改密码",
+      "rewritten": "Linux 怎么修改用户密码",
+      "changed": true,
+      "latency": 0.7803
+    },
+    {
+      "question": "那 SUMIF 呢",
+      "rewritten": "SUMIF 怎么用？",
+      "changed": true,
+      "latency": 0.6555
+    },
+    {
+      "question": "那生成器和迭代器有什么区别",
+      "rewritten": "生成器和迭代器有什么区别",
+      "changed": true,
+      "latency": 0.6229
+    },
+    {
+      "question": "那怎么返回 HTML 呢",
+      "rewritten": "FastAPI 怎么返回 HTML？",
+      "changed": true,
+      "latency": 0.5954
+    },
+    {
+      "question": "那 Excel 筛选怎么做",
+      "rewritten": "Excel 筛选怎么做",
+      "changed": true,
+      "latency": 0.5831
+    },
+    {
+      "question": "它有什么参数",
+      "rewritten": "chmod 命令有哪些参数？",
+      "changed": true,
+      "latency": 0.7943
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+001  一.工作区，工作簿，工作表的联系 > <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">就是你打开 Excel 后，看到的</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">由无数格子组成的页面</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">，底部有标签：</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Sheet1</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">、</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Sheet2</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">、</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">Sheet3</font>`<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">……</font>
+      ---
+002  一.工作区，工作簿，工作表的联系 > **<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">单元格</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">工作表上的</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">每一个小格子</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">（A1、B2 这种）。</font>
+      ---
+003  一.工作区，工作簿，工作表的联系 > <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">你在</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">一页纸上写字</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);"> → 操作</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">工作表</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">你把</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">整本书保存</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);"> → 保存</font>**<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">工作簿</font>**
+      ---
+004  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > **<font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">1.快速定位：选中一个单元格时，将鼠标放在边框的四个边时，出现四个箭头的标志双击一下可以快速定位到四个方向的最远处。</font>**
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774705553849-1b157a19-785f-4aa
+005  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 2.冻结窗格：选中第几行点击冻结窗格就可以让这行上面的所有行列冻结锁定，当选中几行几列的单元格时点击冻结窗格可以使这个单元格的上方和左侧被冻结。
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774787783133-cd3b2dbd-4b74-491
+006  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 3.填充柄的使用：选中一个单元格后，将鼠标拖至边界出现黑色填充的十字架图案后右键拖拽可以自定义填充，有复制，序列等方式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774789666283-f9f670ec-7de9-48b
+007  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 4.选中大范围的区域:选中2到900行的所有区域
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774789738205-b45e19f2-0774-48e
+008  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 5.快速删除多张工作表：选中一张工作表，按住ctrl,在选择其他表
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774790330149-0f22d16f-08ed-4a2
+009  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 6.选中一列，鼠标放在这个位置双击将这列的单元格宽度设为内容宽度
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774791231161-32d9dafe-465a-417
+010  <font style="color:rgb(0, 0, 0);background-color:rgba(0, 0, 0, 0);">二.excel操作技巧</font> > 7.更换两列位置：鼠标放到这个位置，按住shift拖拽到想要更换的列
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774791509982-3f1bde1f-9d4f-457
+011  一.单元格格式设置 > 1.使用单元格格式工具美化表格 > 设置单元格格式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774960454601-f0652781-4299-4b2
+012  一.单元格格式设置 > 1.使用单元格格式工具美化表格 > 单元格格式互换
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774960626301-10673d50-e5d5-46f
+013  一.单元格格式设置 > 1.使用单元格格式工具美化表格 > 边框调整
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1774960668697-cecc91e6-8ac3-471
+014  第三讲 > 一.查找与替换 > 1.按值查找
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775042652697-867570bc-04e8-4b4
+015  第三讲 > 一.查找与替换 > 2按格式查找
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775043124435-8b675631-8757-477
+016  第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~
+      1.将姓张的员工都该为经理的亲戚  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775043384238
+017  第三讲 > 二.定位工具 > 1.通过名称框定位单元格及区域位置
+      ：代表到达  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775045026666-3793ba14-6
+018  第三讲 > 二.定位工具 > 2.定义名称
+      给常用的区域起名方便查找  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775045308094-9f9
+019  第三讲 > 二.定位工具 > 3.使用"定位条件"解决以下问题
+      #### a.为有注释的单元格设置红色填充物 查找->定位条件->注释->点颜料桶  <img src="https://cdn.nlark.com/yuque/0/2026/p
+020  第四讲 > 一.排序 > 1.简单排序
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775478237418-ff656a0d-3a86-4cf
+021  第四讲 > 一.排序 > 2.多条件排序
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775478547037-f1023386-05b2-487
+022  第四讲 > 一.排序 > 3.2003版本时超过三个排序条件时如何处理
+      先排次要关键字，再排主要关键字，
+023  第四讲 > 一.排序 > 4.按颜色排序
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775479904111-d0e9e41a-8e8e-44c
+024  第四讲 > 一.排序 > 5.自定义排序次序
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775479944747-466f80be-d703-46a
+025  第四讲 > 一.排序 > 6.利用排序插入行
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775480302690-facf990e-d645-409
+026  第四讲 > 二.筛选 > 1.使用筛选
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775483429552-ae838819-edbd-490
+027  第四讲 > 二.筛选 > 2.在筛选中使用多个条件
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775483475710-62bd3c9d-0a2f-4bc
+028  第四讲 > 二.筛选 > 3.高级筛选
+      条件区域表示且的意思  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775483007825-4954f
+029  第五讲 > 一.分类汇总工具 > 2.使用分类汇总前先排序
+      先可以升序或者降序
+030  第五讲 > 一.分类汇总工具 > 3.分类汇总的嵌套
+      排序完成之后，先按所属区域分类汇总，然后按产品类别分类汇总  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/
+031  第五讲 > 一.分类汇总工具 > 4.复制分类汇总的结果区域
+      选中区域在开始菜单中点击查找与选择，点击定位条件选则可见单元格，即可复制仅仅看见的区域  <img src="https://cdn.nlark.com/yuque/0/2026
+032  第五讲 > 一.分类汇总工具 > 5.使用分类汇总批量合并内容相同的单元格
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775562987639-d68ab4ae-6f8e-4e5
+033  第五讲 > 二.设置数据验证
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775563441074-62bc0af1-68e8-4e5
+034  第五讲 > 二.设置数据验证 > 1.设置整数数据验证
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775563423315-658cb5c5-f630-450
+035  第五讲 > 二.设置数据验证 > 2.设置文本长度数据验证
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775563470426-1d74cbe7-469f-473
+036  第五讲 > 二.设置数据验证 > 3.设置序列数据验证
+      来源中的逗号必须是英文逗号  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775563489059-7f
+037  第五讲 > 二.设置数据验证 > 4.数据验证的其他设置
+      #### a.输入法切换 #### <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775565108376
+038  第六讲 > 一.数据透析表 > 1.创建数据透析表
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775632758187-9234f81d-c9a1-4c0
+039  第六讲 > 一.数据透析表 > 3.数据透析表中的组合
+      将日期改为季度  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775633020596-e5e040d3
+040  第六讲 > 一.数据透析表 > 4.汇总多列数据
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775632908409-1d790c7c-8196-41b
+041  第六讲 > 一.数据透析表 > 5.在透析表中使用计算
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775633275752-f12e6b40-b103-4d1
+042  第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775634006089-840d0164-a88c-44c
+043  第七讲 > 一.认识excel公式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775634208532-02f17bc9-3082-431
+044  第七讲 > 一.认识excel公式 > 1.运算符
+      #### 算术运算符 + - * / & % ^ <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/177563
+045  第七讲 > 一.认识excel公式 > 4.单元格引用
+      绝对引用:必须$符号来锁定你想确定的值  相对引用:不需要使用$
+046  第七讲 > 二.认识函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775634261788-b9297920-e9df-457
+047  第七讲 > 二.认识函数 > 1.如何使用函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775638456970-333fa826-053a-4a5
+048  第七讲 > 二.认识函数 > 2.学习以下函数
+      sum average max min rank  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17756
+049  第七讲 > 二.认识函数 > 3.利用定位工具选择输入公式的位置
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775639033783-4e0a15bf-caa6-4f0
+050  第八讲. > 一.使用if函数 > 1.if函数的基本用法
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775734566132-b4e0dd96-65df-415
+051  第八讲. > 一.使用if函数 > 2.if函数的嵌套
+      将专业改为字母代号  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775735482949-ddb3f1
+052  第八讲. > 一.使用if函数 > 3.如何尽量回避if函数的嵌套
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775738578165-e9644f9e-8b88-4be
+053  第八讲. > 一.使用if函数 > 4.用if函数处理运算错误 iserror函数
+      iserror判断表达式是否错误  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775738814357
+054  第八讲. > 二.and函数与or函数 > 1.and函数：表示且的关系
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775739800252-2fab9db0-fcfd-44b
+055  第八讲. > 二.and函数与or函数 > 2.or函数 ：表示或的关系
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775739812268-01d55346-3ecd-48c
+056  第八讲. > 二.and函数与or函数 > 3.综合
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775739834841-caffd478-c96f-4e7
+057  第九讲 > 一.使用countif函数
+      + **<font style="color:rgb(15, 17, 21);">COUNTIF = 数个数</font>**<font style="color:rgb(15,
+058  第九讲 > 一.使用countif函数 > 1.count函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775787622344-8842f75f-e39c-4c4
+059  第九讲 > 一.使用countif函数 > 2.countif函数语法
+      countif在一个给定的区域里，设一个条件进行计数，返回一个数值可以作为表达式
+060  第九讲 > 一.使用countif函数 > 3.countif函数计算数值区间
+      因为>=60不是表达式，而是文本形式，所以需要加上引号  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17
+061  第九讲 > 一.使用countif函数 > 4.countif函数超过15位子符的错误
+      因为countif只能识别15位，所以需要用连字符连上后三位才能判断出来想要的个数  <img src="https://cdn.nlark.com/yuque/0/2026/p
+062  第九讲 > 二.常见应用实例 > 1.在数据区域中寻找重复数据
+      用文字检验是否体检使用countif函数和if函数组合  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17
+063  第九讲 > 二.常见应用实例 > 2.在数据验证中使用countif函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775790653200-4ddb2475-7ea9-46e
+064  第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775791047144-69fd29b3-383d-44e
+065  第九讲 > 三.2007及以上版本的countifs函数
+      多条件计数  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775791162044-ed0966e9-4
+066  第十讲
+      | | | | | | | --- | --- | --- | --- | --- | | | | | | | | | | | | | | 一、 | <font style="c
+067  一.使用sumif函数
+      + **<font style="color:rgb(15, 17, 21);">SUMIF = 算总和</font>**<font style="color:rgb(15, 1
+068  一.使用sumif函数 > 1、Sumif函数语法
+      =sumif(range,criteria,[sum_range])（条件区域，条件，求和项）  <img src="https://cdn.nlark.com/yuque/0/
+069  一.使用sumif函数 > 2、Sumif函数计算数值区间
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775912329604-2aa4fd3a-7ad5-463
+070  一.使用sumif函数 > 3、Sumif函数超过15位字符时的错误
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775912632837-101edf60-d7fa-4ed
+071  一.使用sumif函数 > 4、关于第三参数简写时的注意事项
+      这样算出的结果是错误的，会导致D1与F2对应，所以不要简写第三参数  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588
+072  一.使用sumif函数 > 5、在多列中使用Sumif函数
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775913959738-f502679d-5d80-4e4
+073  一.使用sumif函数 > 6、使用辅助列处理多条件的Sumif
+      先创建一个辅助列，将两个列合并，在进行sumif计算  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/177
+074  一.使用sumif函数 > 7、Sumifs函数
+      sumifs(求和项,条件区域1,条件1,条件区域2,条件2,......)  <img src="https://cdn.nlark.com/yuque/0/2026/png/
+075  一.使用sumif函数 > 9、复习数据验证
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775916293437-0dcc7342-cecf-4aa
+076  第十一讲
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775971918683-4d414b43-febd-4cd
+077  第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法  查找引用函数
+      VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup])  **<font style="color:rgb(
+078  第十一讲 > 一.使用vlookup函数 > 2.vlookup中使用通配符
+      当查找目标为关键字(简化了名称)时，可能会查不到，发生#N/A的错误，这时候需要使用通配符  <img src="https://cdn.nlark.com/yuque/0/20
+079  第十一讲 > 一.使用vlookup函数 > 3.vlookup模糊查找
+      模糊查找适用于哪些区间范围内的查找，且查找的值一定是小于等于自己本身的  <img src="https://cdn.nlark.com/yuque/0/2026/png/665
+080  第十一讲 > 一.使用vlookup函数 > 4.使用isna函数处理数字格式引起的错误
+      isna函数判断结果是否为#N/A错误  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775975547
+081  第十一讲 > 一.使用vlookup函数 > 5.hlookup函数
+      hlookup以行为区域来找目标数据,vlookup以列为区域来找目标数据  <img src="https://cdn.nlark.com/yuque/0/2026/png/6
+082  第十二讲
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775997207533-bbad0321-fa2e-432
+083  第十二讲 > 一.Match与Index函数 > 1.函数语法
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1775998926388-78168b53-7b9e-43d
+084  第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较
+      + **<font style="color:rgb(15, 17, 21);">VLOOKUP</font>**<font style="color:rgb(15, 17, 2
+085  第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果
+      **相对引用：向下拖拽行变化A1->A2->A3.....，向右拖拽列变化A1->B1->C1....**  <img src="https://cdn.nlark.com/yu
+086  第十二讲 > 一.Match与Index函数 > 4.认识column函数
+      colunm()返回当前所在列的列数
+087  一.FastAPI基础入门 > 1.第一个FastAPI项目 > 为什么要创建虚拟环境
+      <font style="color:#DF2A3F;">隔离项目运行环境，避免依赖冲突，保持全局环境的干净和稳定</font>
+088  一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目
+      <font style="color:#DF2A3F;">run项目</font>  <font style="color:#DF2A3F;">uvicorn main:app 
+089  一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档
+      <font style="color:#DF2A3F;">127.0.0.1:8000/docs</font>
+090  一.FastAPI基础入门 > 2.路由
+      路由就是**<font style="color:#DF2A3F;">URL地址</font>**和**<font style="color:#DF2A3F;">处理函数</fo
+091  一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数
+      位置：URL路径的一部分<font style="color:#DF2A3F;">/book/{id}</font>  作用：指向唯一的，特定的资源  方法：<font styl
+092  一.FastAPI基础入门 > 3.参数简介和路径参数 > <font style="color:#000000;">路径参数Path类型注解</font>
+      **如何为路径参数添加类型注解？**  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17872140469
+093  一.FastAPI基础入门 > 3.参数简介和路径参数 > 查询参数和query类型注解
+      **查询参数**  声明的参数不是路径参数时，路径操作函数会把该参数自动解释为查询参数  位置：URL<font style="color:#DF2A3F;">？k1=v1&k2
+094  一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数
+      位置：HTTP请求的<font style="color:#DF2A3F;">消息体（body）</font>中  作用：创建，更新资源携带大量数据，如json  方法：<fon
+095  一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1787285964761-a4e2e9cc-9875-4e2
+096  一.FastAPI基础入门 > 4.响应类型
+      **<font style="color:#DF2A3F;">默认情况下</font>**，FastAPI会**<font style="color:#DF2A3F;">自动</
+097  一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1787639192988-1a27c650-aadd-4f0
+098  一.FastAPI基础入门 > 4.响应类型 > 响应文件格式
+      **<font style="color:#DF2A3F;">FileResponse</font>**是FastAPI提供的专门用于高效返回文件内容（如图片，PDF，Excel
+099  一.FastAPI基础入门 > 4.响应类型 > 自定义响应数据格式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1787640853041-c007ab99-46f9-405
+100  一.FastAPI基础入门 > 4.响应类型 > 异常响应处理
+      对于客户端引发的错误（4xx，如资源未找到，认证失败），应使用fastapi.HTTPException来中断正常处理流程，并返回标准错误响应。  <img src="https
+101  二.FastAPI进阶 > 1.中间件
+      中间件是一个在每次请求进入FastAPI应用时都会被执行的函数。它在请求到达实际的路径操作（路由处理函数）之前运行，并且在响应返回给客户端之前在运行一次。  + 中间件作用是什么
+102  二.FastAPI进阶 > 2.依赖注入
+      + FastAPI中，依赖注入系统有什么用？  <font style="color:#DF2A3F;">抽取可复用的组件，实现代码复用，解耦且可轻松替换依赖项进行测试</fon
+103  二.FastAPI进阶 > <font style="color:#000000;">3.ORM</font> > 3.1ORM简介和安装
+      ORM（Object-RelationalMapping,对象关系映射）是一种编程技术，用于在<font style="color:#DF2A3F;">面向对象编程语言和关系型数
+104  一.目录结构 > 进入根目录
+      查看根目录下的文件  cd /  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1783517631308-
+105  一.目录结构 > 目录结果详解 > bin目录
+      bin:binariesdes的缩写，是用来存放二进制的可执行文件  查看bin目录下的文件  cd bin/  ls  <img src="https://cdn.nlark.
+106  一.目录结构 > 目录结果详解 > 其他目录
+      dev:(device）用来存放设备文件   home:存放用户文件的根目录  mnt :(mount)超级管理员安装临时文件系统的安装点  tmp:(temporary)临时文
+107  二.系统管理 > 1.linux用户 > 1.1概述
+      linux系统是一个多用户多任务的操作系统，任何一个要使用系统资源的用户，都必须首先向系统管理申请一个账号，然后以这个账号的身份进入系统，root用户是系统默认创建的管理员账号
+108  二.系统管理 > 1.linux用户 > 1.2添加用户
+      ```plain useradd [选项] 用户名 ```  ```plain useradd jh ```  ```plain passwd jh draken123 ``` 
+109  二.系统管理 > 1.linux用户 > 1.3删除用户
+      ```plain 语法 userdel [选项] 用户名 删除用户同时将目录删除 userdel -r 用户名 ```
+110  二.系统管理 > 1.linux用户 > 1.4查询用户
+      ```plain 语法 id 用户名 ```  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1783827
+111  二.系统管理 > 1.linux用户 > 1.5切换用户（重点）
+      ```plain 语法 su 用户名 切换到zs用户 su zs ```  注意：高权限的用户切换到低权限的用户不需要输入密码，但是低权限的用户切换到高权限寻密码  <img s
+112  二.系统管理 > 2.linux组管理 > 2.1概述
+      linux的组类似于角色，系统可以对有共性的多个用户进行统一的管理，每一个用户都至少属于一个组，创建用户是如果不指定组，会默认创建一个跟用户名相同的组，并且把新创建的用户分配到组
+113  二.系统管理 > 2.linux组管理 > 2.2添加组
+      ```plain 语法 groupadd 组名 添加sy-group groupadd sy-group ```
+114  二.系统管理 > 2.linux组管理 > 2.3删除组
+      ```plain 语法 groupdel 组名 删除sy-group groupdel sy-group ```
+115  二.系统管理 > 2.linux组管理 > 2.4新添加用户属于某一组
+      ```plain 语法 useradd -g 组名 用户名 添加ww用户属于sy-group useradd -g sy-group ww ```  查看信息  <img src
+116  二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除
+      ```plain 语法 -a表示add -d表示delete gpasswd -a/-d 用户名 组名 将ww从sy-group删除 gpasswd -a ww sy-group
+117  二.系统管理 > 3.VI与VIM > 3.1概述
+      vi编辑器：是linux和unix上最基本的文本编辑器，工作在字符模式下，由于不需要图形界面，vi是效率很高的文本编辑器  vim编辑器：vi的增强版，比vi更容易使用，vi的命
+118  二.系统管理 > 3.VI与VIM > 3.2vi和vim三种常见模式
+      <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1783844076480-ba69c115-1233-4f8
+119  二.系统管理 > 3.VI与VIM > 3.3常用操作
+      + 一般模式下     - 拷贝当前行yy     - 粘贴下一行p     - 删除当前行dd     - 跳转到文档最末行G     - 最首行gg     - 光标移动到具
+120  三.linux实操指令 > 一.帮助指令 > 1.man指令
+      ```shell man [命令或配置文件] //功能描述：获得帮助手册上的信息 查看ls命令的帮助信息 man ls  name ：命令名称 SYNOPSIS ：如何使用命令 
+121  三.linux实操指令 > 一.帮助指令 > 2.help命令
+      ```shell help [命令] //功能描述：获得命令内置的帮助信息 查看cd命令的帮助信息 help cd 注意：不用特意去记什么命令用什么帮助指令，随便用，会给提示的 
+122  三.linux实操指令 > 二.文件目录相关指令 > 1.pwd 显示当前工作路径
+      语法  `pwd`  查看当前工作目录  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1785249921
+123  三.linux实操指令 > 二.文件目录相关指令 > 2.ls列出目录内容
+      ```shell ls [选项] [目录或是文件] ls -a 列出全部文件，包括隐藏文件 ls -i 列出文件名称和iNode编号 ls -al 列出所有文件详细信息 ``` 
+124  三.linux实操指令 > 二.文件目录相关指令 > 3.cd切换目录
+      ```shell cd [参数]  功能描述：切换到指定目录 ```  案例  + 切换到根目录     - cd / + 切换到目录home目录     - cd /home 
+125  三.linux实操指令 > 二.文件目录相关指令 > 4.mkdir创建目录
+      + 语法     - mkdir 目录（可以是多级目录） + 在ww目录下创建test和app目录     - mkdir test     - mkdir /home/ww/a
+126  三.linux实操指令 > 二.文件目录相关指令 > 5.rmdir
+      + 语法     - rmdir 目录名称 + 删除ww下的test目录     - rmdir /home/ww/test
+127  三.linux实操指令 > 二.文件目录相关指令 > 6.touch创建空文件
+      + 语法     - touch 文件名称列表 + 在ww目录下创建db.properties文件     - touch db.properties     - <img sr
+128  三.linux实操指令 > 二.文件目录相关指令 > 7.cp拷贝文件，目录
+      + 语法     - cp [选项] source dest  //source 源文件 dest 目标文件     - cp -r source dest 递归拷贝 + 拷贝a
+129  三.linux实操指令 > 二.文件目录相关指令 > 8.rm删除目录，文件
+      + 语法     - rm [选项] 要删除的文件或目录     - 常用选项：         * -r ：递归删除整个文件夹         * -f ：强制删除不提示 + 
+130  三.linux实操指令 > 二.文件目录相关指令 > 9.mv移动目录，文件或者重命名
+      + 重命名语法     - mv oldNameFile newNameFile + 重命名sy下a.txt文件叫test.txt     - mv a.txt test.txt
+131  三.linux实操指令 > 二.文件目录相关指令 > 10.cat查看文件内容
+      + 语法     - cat [选项] 要查看的文件名     - 常用选项         * -n ：显示行号 + 查看目录opt下的test.txt文件     - <im
+132  三.linux实操指令 > 二.文件目录相关指令 > 11.more把文件内容分屏查看
+      + 语法     - more 要查看的文件名     - 功能说明·：more是一个基于vi编辑器的文本过滤器，它以全屏幕的方式按页显示文本文件的内容     - 空格键向下翻
+133  三.linux实操指令 > 二.文件目录相关指令 > 12.less 用于大文件显示
+      + 根据内容需要显示，所以支持大文件的查找效率更高 + 语法     - less 文件     - 空格向下翻页     - enter向下翻行     - q 退出     
+134  三.linux实操指令 > 二.文件目录相关指令 > 13.head 显示文件头部内容
+      + 语法：     - head 文件（默认查看10行文件）     - head -n 5 文件（查看5行文件）     - -n 代表行数
+135  三.linux实操指令 > 二.文件目录相关指令 > 14.echo输出内容到控制台
+      + 语法     - echo [选项] [输出内容]     - 功能介绍：输出常量和变量内容到控制台 + 控制台打印hello world      - <img src="
+136  三.linux实操指令 > 二.文件目录相关指令 > 15.重定向输出>和>>
+      + 语法     - 查看指令>目标文件     - 将前一个查看指令的结果覆盖写入到目标文件中，如果文件不存在，则新建     - 查看指令>>目标文件     - 将前一个查
+137  三.linux实操指令 > 二.文件目录相关指令 > 16.history 查看执行过的历史命令
+      + 语法     - history
+138  三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容
+      + 语法：     - head 文件（默认查看文件头部10行内容）     - head -n 5 文件（查看文件头部5行内容）     - -n 代表行数
+139  三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容
+      + 语法：     - tail 文件（默认查看文件尾部10行内容）     - tail -n 5 文件（查看文件尾部5行内容）     - -n 代表行数     - 常用-
+140  三.linux实操指令 > 四.时间日期指令 > 1.date 指令
+      + 语法     - date [选项] [format] + 显示当前时间     - <img src="https://cdn.nlark.com/yuque/0/2026
+141  三.linux实操指令 > 四.时间日期指令 > 2.cal查看日历
+      + 语法     - cal
+142  三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录
+      + 概述：find指令将从指定目录向下递归地遍历其各个子目录，将满足条件的文件或者目录显示在终端 + 语法     - **find [搜索范围] [选项]**     - -n
+143  三.linux实操指令 > 五.搜索查找指令 > 2.locate快速定位文件路径
+      + 概述：locate指令可以快速在整个系统中定位文件路径。locate指令利用事先建立的系统中所有文件名称及路径的locate数据库实现快速定位给定的文件，locate指令无需
+144  三.linux实操指令 > 五.搜索查找指令 > 3.管道符
+      + 概述：管道符“|”,表示将前一个命令的处理结果输出传递给后面的命令处理
+145  三.linux实操指令 > 五.搜索查找指令 > 4.grep过滤查找
+      + 语法     - grep [选项] PATTERN [file]
+146  三.linux实操指令 > 六.压缩与解压缩指令 > 1.gzip与gunzip
+      + 语法     - gzip 文件 压缩文件后缀名.gz文件     - <img src="https://cdn.nlark.com/yuque/0/2026/png/66
+147  三.linux实操指令 > 六.压缩与解压缩指令 > 2.zip与unzip
+      + **解压和压缩之后原文件还会保留** + **需要先安装yum install zip** + 语法     - zip [选项] 名称.zip 压缩文件     - <im
+148  三.linux实操指令 > 六.压缩与解压缩指令 > 3.tar打包命令
+      +  语法     - tar [选项] xxx.tar.gz [打包的内容]         * 选项说明             + -c ：产生.tar.gz打包文件   
+149  三.linux实操指令 > 七.文件权限指令
+      概述:linux文件调用权限分为三级（owner）(group) (otherusers)
+150  三.linux实操指令 > 七.文件权限指令 > 2.作用与文件和目录的区别
+      + 文件     - r ---读     - w---写（有写的权限不代表可以删除该文件，必须具有该**文件目录**写的权限才能删除）     - x ---执行 + 目录  
+151  三.linux实操指令 > 七.文件权限指令 > 3.操作演示
+      + **ll 查看当前目录下所有文件和目录的权限**  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/178
+152  三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限
+      + 语法     - chmod 【model=421】文件或者目录  <img src="https://cdn.nlark.com/yuque/0/2026/png/6658
+153  三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者
+      + 语法 + chown 【用户】【文件目录】  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/178653
+154  三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组
+      + 语法 + chgrp 【用户组】【文件目录】  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17865
+155  三.linux实操指令 > 七.文件权限指令 > 7.总结
+      + 第一不要轻易去动文件权限，除非你的leader让你去动 + 留个心眼，避免同时坑你的时候，害你加班
+156  三.linux实操指令 > 八.磁盘查看 > 1.du查看目录或者文件的磁盘空间占用
+      + 概述: disk usage + 语法     - du 【可选】 目录或文件         * 可选             + -h 以K-M-G           
+157  三.linux实操指令 > 八.磁盘查看 > 2.df磁盘空间余额情况
+      + 概述：disk free 空余空间 + 语法     - df 【-h】  <img src="https://cdn.nlark.com/yuque/0/2026/png/
+158  四.进程管理 > 1.进程概述
+      + 进程是正在执行的程序或命令，每一个进程都独立运行，都有自己的地址空间，并占用一定的系统资源 + 以后开发会遇见：     - 端口占用     - 出现程序假死，卡死
+159  四.进程管理 > 2.查看系统运行进程
+      + 语法     - ps 【参数】     - -a 显示当前终端下的所有进程信息     - -u 以用户的格式显示进程信息     - -x 显示后台进程运行的参数    
+160  四.进程管理 > 3.终止进程
+      + 语法     - kill 【选项】pid（进程名称）     - 选项 -9 强制杀进程     - 演示杀进程     - kill -9 pid
+161  四.进程管理 > 4.top监控系统进程
+      + 语法     - top 【选项】  + 选项     - -d 秒：每隔几秒更新     - -i ：不显示闲置僵死的进程     - -p ：监控具体进程ip + 排序显
+162  四.进程管理 > 5.netstat显示网络状态或者端口占用信息
+      + 语法     - netstat -anp|grep pid     - netstat -nlp|grep port + 选项     - -a：显示所有正在监听和未监听的
+163  五.服务管理 > 1.概述
+      ** 服务**：是支持linux运行的一些必要程序，本质上也是进程，叫**守护进程**。比如sshd，防火墙等
+164  五.服务管理 > 2.指令
+      + 语法     - systemctl【可选】服务名称         * 可选参数             + start开启             + stop停止   
+165  五.服务管理 > 3.防火墙的操作
+      + firewalld 服务名称 + 查看状态操作     - systemctl status firewalld  <img src="https://cdn.nlark.c
+166  五.服务管理 > 4.开放指定端口
+      + **问题**：以后部署项目的时候，经常发现访问不了，或者从本地开发环境测试的中间件观察数据时，发现联不通
+167  五.服务管理 > 4.开放指定端口 > 4.1检测防火墙是否开启
+      + systemctl status firewalld
+168  五.服务管理 > 4.开放指定端口 > 4.2开放指定端口
+      + **需求：开放8080端口**     - 检测8080端口是否已经开通     - telnet ip port     - <img src="https://cdn.n
+169  五.服务管理 > 5.查看网络是否通
+      #### ping命令 + **ping命令**：是一种网络检测工具，他主要适用于检测远程主机是否正常，或是两部主机间的介质是否为断，网线是否脱落或网卡故障     - 语法  
+170  五.服务管理 > 6.linux系统操作
+      + **作为开发人员几乎不用** + 重启     - 立刻重启         * shutdown -r now         * reboot + 关机     - sh
+171  六.软件包管理 > 1.文件上传与下载
+      + 先下载lrzsz工具     - yum install lrzsz + 用来做文件上传与下载的 + rz从Windows上传文件到linux     - rz 会弹出一个选
+172  六.软件包管理 > 2.RMP包管理（了解） >
+      + 概述：用于互联网下载包的打包及安装工具，它生成具有.RPM扩展名的文件
+173  六.软件包管理 > 3.yum包管理 > 3.1概述
+      + 概述：yum是一个shell前段软件包管理器。**基于RPM包管理**，能够从指定的服务器（在公网上）**自动下载RPM包并且安装**，可以**自动处理赖性关系**，并且一次
+174  六.软件包管理 > 3.yum包管理 > 3.2安装
+      + 语法     - yum install 包名  + 安装firefox     - yum install firefox
+175  六.软件包管理 > 3.yum包管理 > 3.3查询
+      + 语法            - yum list|grep xxx + 查询yum安装的火狐     - yum list|grep firefox  <img src="h
+176  六.软件包管理 > 3.yum包管理 > 3.4卸载
+      + 语法     - yum remove 软件包
+177  七.linux软件下载 > 1.MySQL8.0安装
+      + 下载MySQL安装包 + rz上传安装包  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1787390
+178  八.shell学习 > 1.shell概述
+      + **shell**是一个命令行解释器，用于**接收用户命令**，调度操作系统内核，同时还是一个**脚本程序设计语言**。  <img src="https://cdn.nla
+179  八.shell学习 > 2.linux提供的shell解析器
+      + 解析器     - cat /etc/shells  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/17
+180  八.shell学习 > 3.shell脚本快速入门 > 1.脚本格式
+      + 指定解析器：必须以#!/bin/bash开头     - #!/bin/bash
+181  八.shell学习 > 3.shell脚本快速入门 > 2.第一个shell脚本
+      + 需求：第一个shell脚本：HelloWorld.sh，打印HelloWorld Shell + 代码  ```shell #!/bin/bash echo "HelloWo
+182  八.shell学习 > 3.shell脚本快速入门 > 3.常用运行方式
+      + 目的是运行shell代码  #### 3.1以sh/bash运行 + 绝对路径执行（从/ 目录往下执行）  <img src="https://cdn.nlark.com/y
+183  八.shell学习 > 4.shell语法 > 1.变量
+      #### 1.1系统预定义变量 + $HOME + $PWD + $SHELL + $USER   <img src="https://cdn.nlark.com/yuque/0
+184  八.shell学习 > 4.shell语法 > 2.运算符
+      + 语法     - $((运算式))或$[运算式] + 计算(3+3)/2     - $[(3+3)/2]     - <img src="https://cdn.nlark
+185  八.shell学习 > 4.shell语法 > 3.条件语句
+      + 语法     - [ condition ] **注意：condition 前后要有空格**  #### 3.1两个整数之间比较 | condition | 说明 | 英语 
+186  八.shell学习 > 4.shell语法 > 4.流程控制语句
+      #### 4.1if判断 ```shell if [ 条件判断式 ] then     程序 fi ```  ```shell if [ 条件判断式 ] then     程序 
+187  八.shell学习 > 4.shell语法 > 5.函数
+      #### 5.1系统函数 + basename     -  拿到路径里的文件名，把前面的目录路径全部去掉   + dirname     -  从完整路径中，提取【目录部分】，
+188  八.shell学习 > 5.正则匹配
+      + ^匹配一行的开头  <img src="https://cdn.nlark.com/yuque/0/2026/png/66588345/1787822375241-474c0
+189  八.shell学习 > 6.文本处理工具 > 1.概述
+      + **awk**：文本分析工具，把文件逐行的读入，以空格为默认分隔符将每行切片，切开的部分在进行分析处理
+190  八.shell学习 > 6.文本处理工具 > 2.语法
+      + awk [参数] '/pattern1/{action1}...' filename  pattern:表示awk在数据中查找的内容，就是匹配模式  action：在找到匹配
+191  八.shell学习 > 6.文本处理工具 > 3.awk的内置变量
+      + FILENAME文件名 + NR已读的记录数（行号） + NF浏览记录的域的个数（切割后，列的个数） + 需求     - 统计passwd每行行号  <img src="h
+192  九.任务布置
+      + 对于vim/vi的正常使用要会 + 查看日志 + 文件目录指令 + 查找路径指令 + 压缩和解压 + 文件权限指令 + 磁盘查看 + 查看进程 + 开放端口信息 + 检查网络
+193  第一章-面向对象基础 > 1.面向对象和面向过程
+      + 编程思想  :::info 就是人们利用计算机来解决问题的思维  :::  + 分类     - 面向过程  :::info 它是一种编程思想，强调的是以步骤为基础完成各种操
+194  第一章-面向对象基础 > 2.面向对象特征介绍
+      + 三大特征     - 封装     - 继承     - 多态 + 封装简介     - 概述  :::info 就是隐藏对象的属性和实现细节，仅对外提供公共的访问方式  :
+195  第一章-面向对象基础 > 3.入门案例
+      ```python class Car: #大驼峰写法首字母大写      def print_car(self):         print("汽车会跑") car = Ca
+196  第一章-面向对象基础 > 4.类和对象
+      + 概述     - 类  :::info 抽象的概念，看不见，摸不着，属性和行为的集合  :::      - 对象  :::info 类的具体体现，实现  :::      
+197  第二章-闭包和装饰器 > 1.闭包
+      + 概述：  :::color4 在内部函数中访问了外部函数的变量 这种写法就叫闭包  :::  + 作用：  :::color4 延长外部函数的变量的生命周期  正常情况下，函
+198  第二章-闭包和装饰器 > 2.装饰器
+      + 概述：  :::color4 闭包的一种写法，本质就是：闭包函数  :::  + 作用：  :::color4 在不改变原有函数代码基础上，对其功能做增强  :::  + 前
+199  第二章-闭包和装饰器 > 3.深浅拷贝
+      + 所谓的深浅拷贝分布指的是：  :::color4 浅拷贝：copy模块的copy()  深拷贝：copy模块的deepcopy()函数  :::  + 大白话解释深浅拷贝： 
+200  第三章-网编和多线程 > 1.网络编程
+      :::color4 概述：就是用来实现网络互联的 不同计算机上 运行的程序间 可以进行数据交互  :::
+201  第三章-网编和多线程 > 2.IP地址
+      :::color4 <font style="color:#000000;">概述</font>：这是网络环境下每一台计算机的唯一标识，通过IP地址来找到指定的计算机  分类：I
+202  第三章-网编和多线程 > 3.端口
+      :::color4 概述：用于标识进程的逻辑地址，通过端口来找到指定的进程  范围：0~66535，其中0~1023以及被系统占用或者用做保留端口，自定义端口时尽量避免这些范围 
+203  第三章-网编和多线程 > 4.协议
+      :::color4 概述：定义通信规则，符合协议则可以通信，否则无法正常通信  常用协议：TCP（用的最多）和UDP  TCP特点：  1.面向有连接  2.采用字节流传输数据，
+204  第三章-网编和多线程 > 5.并行与并发
+      :::color4 **1**.什么是多任务执行？  多任务是指在同一时间内执行多个任务  **2**.多任务执行的优势是什么？  多任务执行能够充分利用cpu资源，提高程序执行
+205  第三章-网编和多线程 > 6.进程
+      :::color4 概念：进程(Process)是cpu资源分配的最小单位，**<font style="color:#DF2A3F;">它是操作系统进行资源分配和调度运行的基本
+206  第三章-网编和多线程 > 7.线程
+      :::color4 概念：进程是分配资源的基本单位，一旦创建一个进程就会分配一定的资源，线程是cpu调度的基本单位，每个进程至少都有一个线程，而这个线程就是我们通常说的主线程  
+207  第四章-生成器和正则表达式 > 1.迭代器
+      :::color4 概述：迭代器是python中的一种对象，用于在数据集合中逐个访问元素，而不需要暴露数据集合的底层实现。它提供了一种遍历集合元素的标准方式，适用于任何支持迭代的
+208  第四章-生成器和正则表达式 > 2.生成器
+      :::color4 概述：生成器就是一种特殊的迭代器，通过 `yield` 实现“每次只产生一个数据，用一个取一个”，从而节省内存。  :::
+209  第四章-生成器和正则表达式 > 3.生成器和迭代器的区别
+      :::color4 1.实现方式   迭代器：需要实现__iter__()和__next__()方法，手动管理迭代状态  生成器：通过yield关键字简化实现，自动管理迭代状态 

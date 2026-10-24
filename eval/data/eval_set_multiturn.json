@@ -1,0 +1,168 @@
+[
+  {
+    "history": [
+      {"role": "user", "content": "什么是继承"},
+      {"role": "assistant", "content": "继承是子类获取父类成员的机制。"}
+    ],
+    "question": "他有什么好处",
+    "expected_title": "第一章-面向对象基础 > 2.面向对象特征介绍"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "VLOOKUP 语法是什么"},
+      {"role": "assistant", "content": "VLOOKUP 用于按列查找数据。"}
+    ],
+    "question": "那 HLOOKUP 呢",
+    "expected_title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "COUNTIF 怎么用"},
+      {"role": "assistant", "content": "COUNTIF 用于按条件计数。"}
+    ],
+    "question": "那多条件计数呢",
+    "expected_title": "第九讲 > 三.2007及以上版本的countifs函数"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "Linux 怎么添加用户"},
+      {"role": "assistant", "content": "使用 useradd 命令添加用户。"}
+    ],
+    "question": "那怎么删除",
+    "expected_title": "二.系统管理 > 1.linux用户 > 1.3删除用户"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "find 命令怎么用"},
+      {"role": "assistant", "content": "find 用于递归查找文件。"}
+    ],
+    "question": "那按名字找呢",
+    "expected_title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "FastAPI 的依赖注入是什么"},
+      {"role": "assistant", "content": "依赖注入用于抽取可复用组件。"}
+    ],
+    "question": "它有什么好处",
+    "expected_title": "二.FastAPI进阶 > 2.依赖注入"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "装饰器是什么"},
+      {"role": "assistant", "content": "装饰器用于在不清改原函数的情况下增强功能。"}
+    ],
+    "question": "它和闭包什么关系",
+    "expected_title": "第二章-闭包和装饰器 > 2.装饰器"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "浅拷贝是什么"},
+      {"role": "assistant", "content": "浅拷贝只复制最外层对象。"}
+    ],
+    "question": "那深拷贝呢",
+    "expected_title": "第二章-闭包和装饰器 > 3.深浅拷贝"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "tail 命令怎么用"},
+      {"role": "assistant", "content": "tail 用于查看文件末尾内容。"}
+    ],
+    "question": "那怎么实时看日志",
+    "expected_title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "chmod 怎么改权限"},
+      {"role": "assistant", "content": "chmod 用于修改文件和目录权限。"}
+    ],
+    "question": "那改所有者呢",
+    "expected_title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "什么是继承"},
+      {"role": "assistant", "content": "继承是子类获取父类成员的机制。"}
+    ],
+    "question": "Excel 怎么筛选数据",
+    "expected_title": "第四讲 > 二.筛选 > 1.使用筛选"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "VLOOKUP 语法是什么"},
+      {"role": "assistant", "content": "VLOOKUP 用于按列查找数据。"}
+    ],
+    "question": "Linux 怎么查看端口占用",
+    "expected_title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "装饰器是什么"},
+      {"role": "assistant", "content": "装饰器用于增强函数功能。"}
+    ],
+    "question": "FastAPI 的路由是什么",
+    "expected_title": "一.FastAPI基础入门 > 2.路由"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "VLOOKUP 语法是什么"},
+      {"role": "assistant", "content": "VLOOKUP 用于按列查找。"},
+      {"role": "user", "content": "它有什么优点"},
+      {"role": "assistant", "content": "VLOOKUP 适合从左向右查找。"}
+    ],
+    "question": "那反向查找怎么做",
+    "expected_title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "Linux 怎么添加用户"},
+      {"role": "assistant", "content": "使用 useradd。"},
+      {"role": "user", "content": "那怎么删除"},
+      {"role": "assistant", "content": "使用 userdel -r。"}
+    ],
+    "question": "那怎么改密码",
+    "expected_title": "二.系统管理 > 1.linux用户 > 1.2添加用户"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "COUNTIF 怎么用"},
+      {"role": "assistant", "content": "COUNTIF 用于按条件计数。"}
+    ],
+    "question": "那 SUMIF 呢",
+    "expected_title": "一.使用sumif函数 > 1、Sumif函数语法"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "生成器是什么"},
+      {"role": "assistant", "content": "生成器通过 yield 逐个产出数据。"}
+    ],
+    "question": "那生成器和迭代器有什么区别",
+    "expected_title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "FastAPI 怎么返回文件"},
+      {"role": "assistant", "content": "使用 FileResponse。"}
+    ],
+    "question": "那怎么返回 HTML 呢",
+    "expected_title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "什么是继承"},
+      {"role": "assistant", "content": "继承是子类获取父类成员。"},
+      {"role": "user", "content": "它有什么好处"},
+      {"role": "assistant", "content": "提高代码复用性。"}
+    ],
+    "question": "那 Excel 筛选怎么做",
+    "expected_title": "第四讲 > 二.筛选 > 1.使用筛选"
+  },
+  {
+    "history": [
+      {"role": "user", "content": "Linux 的 chmod 怎么改权限"},
+      {"role": "assistant", "content": "chmod 用于修改文件权限。"}
+    ],
+    "question": "它有什么参数",
+    "expected_title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限"
+  }
+]

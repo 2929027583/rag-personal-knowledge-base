@@ -1,0 +1,3553 @@
+{
+  "metrics": {
+    "baseline": {
+      "n": 20,
+      "hit1": 0.7,
+      "hit5": 0.9,
+      "mrr": 0.7875,
+      "source@2": 0.85,
+      "source@5": 0.85,
+      "avg_best_distance": 0.6662549999999999
+    },
+    "concat": {
+      "n": 20,
+      "hit1": 0.9,
+      "hit5": 1.0,
+      "mrr": 0.9291666666666668,
+      "source@2": 1.0,
+      "source@5": 1.0,
+      "avg_best_distance": 0.44037499999999996
+    },
+    "dual": {
+      "n": 20,
+      "hit1": 0.9,
+      "hit5": 1.0,
+      "mrr": 0.95,
+      "source@2": 1.0,
+      "source@5": 1.0,
+      "avg_best_distance": 0.4283099999999999
+    },
+    "all": {
+      "n": 20,
+      "hit1": 0.95,
+      "hit5": 1.0,
+      "mrr": 0.975,
+      "source@2": 1.0,
+      "source@5": 1.0,
+      "avg_best_distance": 0.359815
+    }
+  },
+  "records": [
+    {
+      "question": "他有什么好处",
+      "expected_title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+      "rewritten_query": "继承有什么好处",
+      "baseline": {
+        "queries": [
+          "他有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 1.1741,
+        "best_distance": 1.1741,
+        "source@2": false,
+        "source@5": false,
+        "top_k": [
+          {
+            "id": "chunk_193",
+            "rank": 1,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.1741
+          },
+          {
+            "id": "chunk_177",
+            "rank": 2,
+            "title": "八.shell学习 > 1.shell概述",
+            "distance": 1.2771
+          },
+          {
+            "id": "chunk_101",
+            "rank": 3,
+            "title": "二.FastAPI进阶 > 2.依赖注入",
+            "distance": 1.3044
+          },
+          {
+            "id": "chunk_203",
+            "rank": 4,
+            "title": "第三章-网编和多线程 > 5.并行与并发",
+            "distance": 1.3076
+          },
+          {
+            "id": "chunk_75",
+            "rank": 5,
+            "title": "第十一讲",
+            "distance": 1.3104
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "什么是继承。他有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.9694,
+        "best_distance": 0.9694,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_193",
+            "rank": 1,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 0.9694
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 1.2449
+          },
+          {
+            "id": "chunk_177",
+            "rank": 3,
+            "title": "八.shell学习 > 1.shell概述",
+            "distance": 1.2772
+          },
+          {
+            "id": "chunk_192",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 1.面向对象和面向过程",
+            "distance": 1.2785
+          },
+          {
+            "id": "chunk_5",
+            "rank": 5,
+            "title": "二.excel操作技巧 > 3.填充柄的使用：选中一个单元格后，将鼠标拖至边界出现黑色填充的十字架图案后右键拖拽可以自定义填充，有复制，序列等方式",
+            "distance": 1.2843
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "他有什么好处",
+          "什么是继承。他有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.9695,
+        "best_distance": 0.9695,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_193",
+            "rank": 1,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 0.9695
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 1.2452
+          },
+          {
+            "id": "chunk_177",
+            "rank": 3,
+            "title": "八.shell学习 > 1.shell概述",
+            "distance": 1.2771
+          },
+          {
+            "id": "chunk_192",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 1.面向对象和面向过程",
+            "distance": 1.2786
+          },
+          {
+            "id": "chunk_5",
+            "rank": 5,
+            "title": "二.excel操作技巧 > 3.填充柄的使用：选中一个单元格后，将鼠标拖至边界出现黑色填充的十字架图案后右键拖拽可以自定义填充，有复制，序列等方式",
+            "distance": 1.2844
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "他有什么好处",
+          "什么是继承。他有什么好处",
+          "继承有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.9694,
+        "best_distance": 0.9694,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_193",
+            "rank": 1,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 0.9694
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 1.2449
+          },
+          {
+            "id": "chunk_177",
+            "rank": 3,
+            "title": "八.shell学习 > 1.shell概述",
+            "distance": 1.2771
+          },
+          {
+            "id": "chunk_192",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 1.面向对象和面向过程",
+            "distance": 1.2785
+          },
+          {
+            "id": "chunk_5",
+            "rank": 5,
+            "title": "二.excel操作技巧 > 3.填充柄的使用：选中一个单元格后，将鼠标拖至边界出现黑色填充的十字架图案后右键拖拽可以自定义填充，有复制，序列等方式",
+            "distance": 1.2843
+          }
+        ]
+      }
+    },
+    {
+      "question": "那 HLOOKUP 呢",
+      "expected_title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+      "rewritten_query": "HLOOKUP 的语法是什么",
+      "baseline": {
+        "queries": [
+          "那 HLOOKUP 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3191,
+        "best_distance": 0.3191,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_80",
+            "rank": 1,
+            "title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+            "distance": 0.3191
+          },
+          {
+            "id": "chunk_83",
+            "rank": 2,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.6672
+          },
+          {
+            "id": "chunk_76",
+            "rank": 3,
+            "title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法 查找引用函数",
+            "distance": 0.6847
+          },
+          {
+            "id": "chunk_84",
+            "rank": 4,
+            "title": "第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果",
+            "distance": 0.8105
+          },
+          {
+            "id": "chunk_78",
+            "rank": 5,
+            "title": "第十一讲 > 一.使用vlookup函数 > 3.vlookup模糊查找",
+            "distance": 0.8383
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "VLOOKUP 语法是什么。那 HLOOKUP 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3492,
+        "best_distance": 0.3492,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_80",
+            "rank": 1,
+            "title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+            "distance": 0.3492
+          },
+          {
+            "id": "chunk_76",
+            "rank": 2,
+            "title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法 查找引用函数",
+            "distance": 0.4489
+          },
+          {
+            "id": "chunk_83",
+            "rank": 3,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.6178
+          },
+          {
+            "id": "chunk_84",
+            "rank": 4,
+            "title": "第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果",
+            "distance": 0.7364
+          },
+          {
+            "id": "chunk_78",
+            "rank": 5,
+            "title": "第十一讲 > 一.使用vlookup函数 > 3.vlookup模糊查找",
+            "distance": 0.7997
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那 HLOOKUP 呢",
+          "VLOOKUP 语法是什么。那 HLOOKUP 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3191,
+        "best_distance": 0.3191,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_80",
+            "rank": 1,
+            "title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+            "distance": 0.3191
+          },
+          {
+            "id": "chunk_76",
+            "rank": 2,
+            "title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法 查找引用函数",
+            "distance": 0.4489
+          },
+          {
+            "id": "chunk_83",
+            "rank": 3,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.6178
+          },
+          {
+            "id": "chunk_84",
+            "rank": 4,
+            "title": "第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果",
+            "distance": 0.7364
+          },
+          {
+            "id": "chunk_78",
+            "rank": 5,
+            "title": "第十一讲 > 一.使用vlookup函数 > 3.vlookup模糊查找",
+            "distance": 0.7997
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那 HLOOKUP 呢",
+          "VLOOKUP 语法是什么。那 HLOOKUP 呢",
+          "HLOOKUP 的语法是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.319,
+        "best_distance": 0.319,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_80",
+            "rank": 1,
+            "title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+            "distance": 0.319
+          },
+          {
+            "id": "chunk_76",
+            "rank": 2,
+            "title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法 查找引用函数",
+            "distance": 0.4489
+          },
+          {
+            "id": "chunk_83",
+            "rank": 3,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.6178
+          },
+          {
+            "id": "chunk_82",
+            "rank": 4,
+            "title": "第十二讲 > 一.Match与Index函数 > 1.函数语法",
+            "distance": 0.7057
+          },
+          {
+            "id": "chunk_84",
+            "rank": 5,
+            "title": "第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果",
+            "distance": 0.7364
+          }
+        ]
+      }
+    },
+    {
+      "question": "那多条件计数呢",
+      "expected_title": "第九讲 > 三.2007及以上版本的countifs函数",
+      "rewritten_query": "多条件计数在Excel中如何使用COUNTIFS函数？",
+      "baseline": {
+        "queries": [
+          "那多条件计数呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.511,
+        "best_distance": 0.511,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_64",
+            "rank": 1,
+            "title": "第九讲 > 三.2007及以上版本的countifs函数",
+            "distance": 0.511
+          },
+          {
+            "id": "chunk_63",
+            "rank": 2,
+            "title": "第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数",
+            "distance": 0.5825
+          },
+          {
+            "id": "chunk_57",
+            "rank": 3,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.608
+          },
+          {
+            "id": "chunk_58",
+            "rank": 4,
+            "title": "第九讲 > 一.使用countif函数 > 2.countif函数语法",
+            "distance": 0.6105
+          },
+          {
+            "id": "chunk_62",
+            "rank": 5,
+            "title": "第九讲 > 二.常见应用实例 > 2.在数据验证中使用countif函数",
+            "distance": 0.6948
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "COUNTIF 怎么用。那多条件计数呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2261,
+        "best_distance": 0.2261,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_64",
+            "rank": 1,
+            "title": "第九讲 > 三.2007及以上版本的countifs函数",
+            "distance": 0.2261
+          },
+          {
+            "id": "chunk_57",
+            "rank": 2,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.322
+          },
+          {
+            "id": "chunk_58",
+            "rank": 3,
+            "title": "第九讲 > 一.使用countif函数 > 2.countif函数语法",
+            "distance": 0.3224
+          },
+          {
+            "id": "chunk_63",
+            "rank": 4,
+            "title": "第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数",
+            "distance": 0.3595
+          },
+          {
+            "id": "chunk_56",
+            "rank": 5,
+            "title": "第九讲 > 一.使用countif函数",
+            "distance": 0.3909
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那多条件计数呢",
+          "COUNTIF 怎么用。那多条件计数呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2262,
+        "best_distance": 0.2262,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_64",
+            "rank": 1,
+            "title": "第九讲 > 三.2007及以上版本的countifs函数",
+            "distance": 0.2262
+          },
+          {
+            "id": "chunk_57",
+            "rank": 2,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.322
+          },
+          {
+            "id": "chunk_58",
+            "rank": 3,
+            "title": "第九讲 > 一.使用countif函数 > 2.countif函数语法",
+            "distance": 0.3223
+          },
+          {
+            "id": "chunk_63",
+            "rank": 4,
+            "title": "第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数",
+            "distance": 0.3595
+          },
+          {
+            "id": "chunk_56",
+            "rank": 5,
+            "title": "第九讲 > 一.使用countif函数",
+            "distance": 0.3908
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那多条件计数呢",
+          "COUNTIF 怎么用。那多条件计数呢",
+          "多条件计数在Excel中如何使用COUNTIFS函数？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2262,
+        "best_distance": 0.2262,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_64",
+            "rank": 1,
+            "title": "第九讲 > 三.2007及以上版本的countifs函数",
+            "distance": 0.2262
+          },
+          {
+            "id": "chunk_57",
+            "rank": 2,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.3221
+          },
+          {
+            "id": "chunk_58",
+            "rank": 3,
+            "title": "第九讲 > 一.使用countif函数 > 2.countif函数语法",
+            "distance": 0.3225
+          },
+          {
+            "id": "chunk_63",
+            "rank": 4,
+            "title": "第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数",
+            "distance": 0.3597
+          },
+          {
+            "id": "chunk_56",
+            "rank": 5,
+            "title": "第九讲 > 一.使用countif函数",
+            "distance": 0.391
+          }
+        ]
+      }
+    },
+    {
+      "question": "那怎么删除",
+      "expected_title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+      "rewritten_query": "Linux 怎么删除用户",
+      "baseline": {
+        "queries": [
+          "那怎么删除"
+        ],
+        "rank": 1,
+        "expected_distance": 0.888,
+        "best_distance": 0.888,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.888
+          },
+          {
+            "id": "chunk_175",
+            "rank": 2,
+            "title": "六.软件包管理 > 3.yum包管理 > 3.4卸载",
+            "distance": 0.9384
+          },
+          {
+            "id": "chunk_7",
+            "rank": 3,
+            "title": "二.excel操作技巧 > 5.快速删除多张工作表：选中一张工作表，按住ctrl,在选择其他表",
+            "distance": 0.946
+          },
+          {
+            "id": "chunk_113",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.3删除组",
+            "distance": 0.9902
+          },
+          {
+            "id": "chunk_128",
+            "rank": 5,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 8.rm删除目录，文件",
+            "distance": 1.0112
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "Linux 怎么添加用户。那怎么删除"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3786,
+        "best_distance": 0.3786,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.3786
+          },
+          {
+            "id": "chunk_107",
+            "rank": 2,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 0.4455
+          },
+          {
+            "id": "chunk_115",
+            "rank": 3,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 0.5166
+          },
+          {
+            "id": "chunk_114",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.4新添加用户属于某一组",
+            "distance": 0.5327
+          },
+          {
+            "id": "chunk_112",
+            "rank": 5,
+            "title": "二.系统管理 > 2.linux组管理 > 2.2添加组",
+            "distance": 0.5721
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那怎么删除",
+          "Linux 怎么添加用户。那怎么删除"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3786,
+        "best_distance": 0.3786,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.3786
+          },
+          {
+            "id": "chunk_107",
+            "rank": 2,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 0.4455
+          },
+          {
+            "id": "chunk_115",
+            "rank": 3,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 0.5166
+          },
+          {
+            "id": "chunk_114",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.4新添加用户属于某一组",
+            "distance": 0.5327
+          },
+          {
+            "id": "chunk_112",
+            "rank": 5,
+            "title": "二.系统管理 > 2.linux组管理 > 2.2添加组",
+            "distance": 0.5721
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那怎么删除",
+          "Linux 怎么添加用户。那怎么删除",
+          "Linux 怎么删除用户"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2288,
+        "best_distance": 0.2288,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.2288
+          },
+          {
+            "id": "chunk_107",
+            "rank": 2,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 0.4455
+          },
+          {
+            "id": "chunk_113",
+            "rank": 3,
+            "title": "二.系统管理 > 2.linux组管理 > 2.3删除组",
+            "distance": 0.4915
+          },
+          {
+            "id": "chunk_115",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 0.5166
+          },
+          {
+            "id": "chunk_114",
+            "rank": 5,
+            "title": "二.系统管理 > 2.linux组管理 > 2.4新添加用户属于某一组",
+            "distance": 0.5327
+          }
+        ]
+      }
+    },
+    {
+      "question": "那按名字找呢",
+      "expected_title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录",
+      "rewritten_query": "find 命令如何按文件名查找文件？",
+      "baseline": {
+        "queries": [
+          "那按名字找呢"
+        ],
+        "rank": null,
+        "expected_distance": null,
+        "best_distance": 0.8567,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_13",
+            "rank": 1,
+            "title": "第三讲 > 一.查找与替换 > 1.按值查找",
+            "distance": 0.8567
+          },
+          {
+            "id": "chunk_17",
+            "rank": 2,
+            "title": "第三讲 > 二.定位工具 > 2.定义名称",
+            "distance": 0.8704
+          },
+          {
+            "id": "chunk_15",
+            "rank": 3,
+            "title": "第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~",
+            "distance": 0.8777
+          },
+          {
+            "id": "chunk_14",
+            "rank": 4,
+            "title": "第三讲 > 一.查找与替换 > 2按格式查找",
+            "distance": 0.8861
+          },
+          {
+            "id": "chunk_16",
+            "rank": 5,
+            "title": "第三讲 > 二.定位工具 > 1.通过名称框定位单元格及区域位置",
+            "distance": 0.8963
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "find 命令怎么用。那按名字找呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.5058,
+        "best_distance": 0.5058,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_141",
+            "rank": 1,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录",
+            "distance": 0.5058
+          },
+          {
+            "id": "chunk_142",
+            "rank": 2,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 2.locate快速定位文件路径",
+            "distance": 0.711
+          },
+          {
+            "id": "chunk_144",
+            "rank": 3,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 4.grep过滤查找",
+            "distance": 0.7382
+          },
+          {
+            "id": "chunk_132",
+            "rank": 4,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 12.less 用于大文件显示",
+            "distance": 0.7752
+          },
+          {
+            "id": "chunk_174",
+            "rank": 5,
+            "title": "六.软件包管理 > 3.yum包管理 > 3.3查询",
+            "distance": 0.8203
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那按名字找呢",
+          "find 命令怎么用。那按名字找呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.5058,
+        "best_distance": 0.5058,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_141",
+            "rank": 1,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录",
+            "distance": 0.5058
+          },
+          {
+            "id": "chunk_142",
+            "rank": 2,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 2.locate快速定位文件路径",
+            "distance": 0.711
+          },
+          {
+            "id": "chunk_144",
+            "rank": 3,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 4.grep过滤查找",
+            "distance": 0.7382
+          },
+          {
+            "id": "chunk_132",
+            "rank": 4,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 12.less 用于大文件显示",
+            "distance": 0.7752
+          },
+          {
+            "id": "chunk_174",
+            "rank": 5,
+            "title": "六.软件包管理 > 3.yum包管理 > 3.3查询",
+            "distance": 0.8203
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那按名字找呢",
+          "find 命令怎么用。那按名字找呢",
+          "find 命令如何按文件名查找文件？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.4282,
+        "best_distance": 0.4282,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_141",
+            "rank": 1,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录",
+            "distance": 0.4282
+          },
+          {
+            "id": "chunk_144",
+            "rank": 2,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 4.grep过滤查找",
+            "distance": 0.645
+          },
+          {
+            "id": "chunk_142",
+            "rank": 3,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 2.locate快速定位文件路径",
+            "distance": 0.7095
+          },
+          {
+            "id": "chunk_132",
+            "rank": 4,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 12.less 用于大文件显示",
+            "distance": 0.7391
+          },
+          {
+            "id": "chunk_143",
+            "rank": 5,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 3.管道符",
+            "distance": 0.8154
+          }
+        ]
+      }
+    },
+    {
+      "question": "它有什么好处",
+      "expected_title": "二.FastAPI进阶 > 2.依赖注入",
+      "rewritten_query": "FastAPI 的依赖注入有什么好处",
+      "baseline": {
+        "queries": [
+          "它有什么好处"
+        ],
+        "rank": 4,
+        "expected_distance": 1.3233,
+        "best_distance": 1.202,
+        "source@2": false,
+        "source@5": false,
+        "top_k": [
+          {
+            "id": "chunk_193",
+            "rank": 1,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.202
+          },
+          {
+            "id": "chunk_120",
+            "rank": 2,
+            "title": "三.linux实操指令 > 一.帮助指令 > 2.help命令",
+            "distance": 1.2919
+          },
+          {
+            "id": "chunk_177",
+            "rank": 3,
+            "title": "八.shell学习 > 1.shell概述",
+            "distance": 1.3082
+          },
+          {
+            "id": "chunk_101",
+            "rank": 4,
+            "title": "二.FastAPI进阶 > 2.依赖注入",
+            "distance": 1.3233
+          },
+          {
+            "id": "chunk_102",
+            "rank": 5,
+            "title": "二.FastAPI进阶 > 3.ORM > 3.1ORM简介和安装",
+            "distance": 1.3247
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "FastAPI 的依赖注入是什么。它有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2502,
+        "best_distance": 0.2502,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_101",
+            "rank": 1,
+            "title": "二.FastAPI进阶 > 2.依赖注入",
+            "distance": 0.2502
+          },
+          {
+            "id": "chunk_102",
+            "rank": 2,
+            "title": "二.FastAPI进阶 > 3.ORM > 3.1ORM简介和安装",
+            "distance": 0.7742
+          },
+          {
+            "id": "chunk_94",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解",
+            "distance": 0.8486
+          },
+          {
+            "id": "chunk_100",
+            "rank": 4,
+            "title": "二.FastAPI进阶 > 1.中间件",
+            "distance": 0.8883
+          },
+          {
+            "id": "chunk_86",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 为什么要创建虚拟环境",
+            "distance": 0.8998
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "它有什么好处",
+          "FastAPI 的依赖注入是什么。它有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2501,
+        "best_distance": 0.2501,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_101",
+            "rank": 1,
+            "title": "二.FastAPI进阶 > 2.依赖注入",
+            "distance": 0.2501
+          },
+          {
+            "id": "chunk_102",
+            "rank": 2,
+            "title": "二.FastAPI进阶 > 3.ORM > 3.1ORM简介和安装",
+            "distance": 0.7743
+          },
+          {
+            "id": "chunk_94",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解",
+            "distance": 0.8487
+          },
+          {
+            "id": "chunk_100",
+            "rank": 4,
+            "title": "二.FastAPI进阶 > 1.中间件",
+            "distance": 0.8883
+          },
+          {
+            "id": "chunk_86",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 为什么要创建虚拟环境",
+            "distance": 0.8997
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "它有什么好处",
+          "FastAPI 的依赖注入是什么。它有什么好处",
+          "FastAPI 的依赖注入有什么好处"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2504,
+        "best_distance": 0.2504,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_101",
+            "rank": 1,
+            "title": "二.FastAPI进阶 > 2.依赖注入",
+            "distance": 0.2504
+          },
+          {
+            "id": "chunk_102",
+            "rank": 2,
+            "title": "二.FastAPI进阶 > 3.ORM > 3.1ORM简介和安装",
+            "distance": 0.7743
+          },
+          {
+            "id": "chunk_94",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解",
+            "distance": 0.8487
+          },
+          {
+            "id": "chunk_100",
+            "rank": 4,
+            "title": "二.FastAPI进阶 > 1.中间件",
+            "distance": 0.8885
+          },
+          {
+            "id": "chunk_86",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 为什么要创建虚拟环境",
+            "distance": 0.889
+          }
+        ]
+      }
+    },
+    {
+      "question": "它和闭包什么关系",
+      "expected_title": "第二章-闭包和装饰器 > 2.装饰器",
+      "rewritten_query": "装饰器和闭包是什么关系",
+      "baseline": {
+        "queries": [
+          "它和闭包什么关系"
+        ],
+        "rank": 2,
+        "expected_distance": 0.8903,
+        "best_distance": 0.6338,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_196",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 1.闭包",
+            "distance": 0.6338
+          },
+          {
+            "id": "chunk_197",
+            "rank": 2,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 0.8903
+          },
+          {
+            "id": "chunk_198",
+            "rank": 3,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 1.031
+          },
+          {
+            "id": "chunk_193",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.1227
+          },
+          {
+            "id": "chunk_208",
+            "rank": 5,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 1.2274
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "装饰器是什么。它和闭包什么关系"
+        ],
+        "rank": 1,
+        "expected_distance": 0.4001,
+        "best_distance": 0.4001,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_197",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 0.4001
+          },
+          {
+            "id": "chunk_196",
+            "rank": 2,
+            "title": "第二章-闭包和装饰器 > 1.闭包",
+            "distance": 0.7371
+          },
+          {
+            "id": "chunk_198",
+            "rank": 3,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.9961
+          },
+          {
+            "id": "chunk_193",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.1915
+          },
+          {
+            "id": "chunk_206",
+            "rank": 5,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 1.2019
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "它和闭包什么关系",
+          "装饰器是什么。它和闭包什么关系"
+        ],
+        "rank": 1,
+        "expected_distance": 0.4001,
+        "best_distance": 0.4001,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_197",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 0.4001
+          },
+          {
+            "id": "chunk_196",
+            "rank": 2,
+            "title": "第二章-闭包和装饰器 > 1.闭包",
+            "distance": 0.634
+          },
+          {
+            "id": "chunk_198",
+            "rank": 3,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.9961
+          },
+          {
+            "id": "chunk_193",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.1228
+          },
+          {
+            "id": "chunk_206",
+            "rank": 5,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 1.2019
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "它和闭包什么关系",
+          "装饰器是什么。它和闭包什么关系",
+          "装饰器和闭包是什么关系"
+        ],
+        "rank": 1,
+        "expected_distance": 0.4001,
+        "best_distance": 0.4001,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_197",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 0.4001
+          },
+          {
+            "id": "chunk_196",
+            "rank": 2,
+            "title": "第二章-闭包和装饰器 > 1.闭包",
+            "distance": 0.6338
+          },
+          {
+            "id": "chunk_198",
+            "rank": 3,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.9915
+          },
+          {
+            "id": "chunk_193",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.1227
+          },
+          {
+            "id": "chunk_208",
+            "rank": 5,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 1.1665
+          }
+        ]
+      }
+    },
+    {
+      "question": "那深拷贝呢",
+      "expected_title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+      "rewritten_query": "深拷贝是什么",
+      "baseline": {
+        "queries": [
+          "那深拷贝呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.4055,
+        "best_distance": 0.4055,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_198",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.4055
+          },
+          {
+            "id": "chunk_127",
+            "rank": 2,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 7.cp拷贝文件，目录",
+            "distance": 0.9779
+          },
+          {
+            "id": "chunk_118",
+            "rank": 3,
+            "title": "二.系统管理 > 3.VI与VIM > 3.3常用操作",
+            "distance": 1.1681
+          },
+          {
+            "id": "chunk_30",
+            "rank": 4,
+            "title": "第五讲 > 一.分类汇总工具 > 4.复制分类汇总的结果区域",
+            "distance": 1.2058
+          },
+          {
+            "id": "chunk_197",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2168
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "浅拷贝是什么。那深拷贝呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3434,
+        "best_distance": 0.3434,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_198",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.3434
+          },
+          {
+            "id": "chunk_127",
+            "rank": 2,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 7.cp拷贝文件，目录",
+            "distance": 1.0813
+          },
+          {
+            "id": "chunk_30",
+            "rank": 3,
+            "title": "第五讲 > 一.分类汇总工具 > 4.复制分类汇总的结果区域",
+            "distance": 1.2183
+          },
+          {
+            "id": "chunk_193",
+            "rank": 4,
+            "title": "第一章-面向对象基础 > 2.面向对象特征介绍",
+            "distance": 1.2238
+          },
+          {
+            "id": "chunk_118",
+            "rank": 5,
+            "title": "二.系统管理 > 3.VI与VIM > 3.3常用操作",
+            "distance": 1.249
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那深拷贝呢",
+          "浅拷贝是什么。那深拷贝呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3434,
+        "best_distance": 0.3434,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_198",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.3434
+          },
+          {
+            "id": "chunk_127",
+            "rank": 2,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 7.cp拷贝文件，目录",
+            "distance": 0.9779
+          },
+          {
+            "id": "chunk_118",
+            "rank": 3,
+            "title": "二.系统管理 > 3.VI与VIM > 3.3常用操作",
+            "distance": 1.1681
+          },
+          {
+            "id": "chunk_30",
+            "rank": 4,
+            "title": "第五讲 > 一.分类汇总工具 > 4.复制分类汇总的结果区域",
+            "distance": 1.2058
+          },
+          {
+            "id": "chunk_197",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2168
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那深拷贝呢",
+          "浅拷贝是什么。那深拷贝呢",
+          "深拷贝是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3433,
+        "best_distance": 0.3433,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_198",
+            "rank": 1,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 0.3433
+          },
+          {
+            "id": "chunk_127",
+            "rank": 2,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 7.cp拷贝文件，目录",
+            "distance": 0.9779
+          },
+          {
+            "id": "chunk_118",
+            "rank": 3,
+            "title": "二.系统管理 > 3.VI与VIM > 3.3常用操作",
+            "distance": 1.1682
+          },
+          {
+            "id": "chunk_30",
+            "rank": 4,
+            "title": "第五讲 > 一.分类汇总工具 > 4.复制分类汇总的结果区域",
+            "distance": 1.2059
+          },
+          {
+            "id": "chunk_196",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 1.闭包",
+            "distance": 1.2111
+          }
+        ]
+      }
+    },
+    {
+      "question": "那怎么实时看日志",
+      "expected_title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+      "rewritten_query": "tail 命令怎么实时查看日志文件末尾内容？",
+      "baseline": {
+        "queries": [
+          "那怎么实时看日志"
+        ],
+        "rank": 1,
+        "expected_distance": 0.7323,
+        "best_distance": 0.7323,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_138",
+            "rank": 1,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+            "distance": 0.7323
+          },
+          {
+            "id": "chunk_137",
+            "rank": 2,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容",
+            "distance": 0.9547
+          },
+          {
+            "id": "chunk_191",
+            "rank": 3,
+            "title": "九.任务布置",
+            "distance": 0.9644
+          },
+          {
+            "id": "chunk_88",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 1.0693
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 1.0702
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "tail 命令怎么用。那怎么实时看日志"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3123,
+        "best_distance": 0.3123,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_138",
+            "rank": 1,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+            "distance": 0.3123
+          },
+          {
+            "id": "chunk_137",
+            "rank": 2,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容",
+            "distance": 0.7042
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.8585
+          },
+          {
+            "id": "chunk_160",
+            "rank": 4,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8618
+          },
+          {
+            "id": "chunk_130",
+            "rank": 5,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 10.cat查看文件内容",
+            "distance": 0.8635
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那怎么实时看日志",
+          "tail 命令怎么用。那怎么实时看日志"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3123,
+        "best_distance": 0.3123,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_138",
+            "rank": 1,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+            "distance": 0.3123
+          },
+          {
+            "id": "chunk_137",
+            "rank": 2,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容",
+            "distance": 0.7042
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.8585
+          },
+          {
+            "id": "chunk_160",
+            "rank": 4,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8618
+          },
+          {
+            "id": "chunk_130",
+            "rank": 5,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 10.cat查看文件内容",
+            "distance": 0.8635
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那怎么实时看日志",
+          "tail 命令怎么用。那怎么实时看日志",
+          "tail 命令怎么实时查看日志文件末尾内容？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2294,
+        "best_distance": 0.2294,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_138",
+            "rank": 1,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+            "distance": 0.2294
+          },
+          {
+            "id": "chunk_137",
+            "rank": 2,
+            "title": "三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容",
+            "distance": 0.6999
+          },
+          {
+            "id": "chunk_130",
+            "rank": 3,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 10.cat查看文件内容",
+            "distance": 0.8301
+          },
+          {
+            "id": "chunk_158",
+            "rank": 4,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.8585
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8618
+          }
+        ]
+      }
+    },
+    {
+      "question": "那改所有者呢",
+      "expected_title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+      "rewritten_query": "修改文件所有者用什么命令？",
+      "baseline": {
+        "queries": [
+          "那改所有者呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.7861,
+        "best_distance": 0.7861,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_152",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.7861
+          },
+          {
+            "id": "chunk_153",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组",
+            "distance": 1.0397
+          },
+          {
+            "id": "chunk_151",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 1.2017
+          },
+          {
+            "id": "chunk_148",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 1.2201
+          },
+          {
+            "id": "chunk_129",
+            "rank": 5,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 9.mv移动目录，文件或者重命名",
+            "distance": 1.258
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "chmod 怎么改权限。那改所有者呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2814,
+        "best_distance": 0.2814,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_152",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.2814
+          },
+          {
+            "id": "chunk_151",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.3671
+          },
+          {
+            "id": "chunk_148",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4541
+          },
+          {
+            "id": "chunk_153",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组",
+            "distance": 0.5086
+          },
+          {
+            "id": "chunk_150",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.557
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那改所有者呢",
+          "chmod 怎么改权限。那改所有者呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2814,
+        "best_distance": 0.2814,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_152",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.2814
+          },
+          {
+            "id": "chunk_151",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.3672
+          },
+          {
+            "id": "chunk_148",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4544
+          },
+          {
+            "id": "chunk_153",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组",
+            "distance": 0.5087
+          },
+          {
+            "id": "chunk_150",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.557
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那改所有者呢",
+          "chmod 怎么改权限。那改所有者呢",
+          "修改文件所有者用什么命令？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2346,
+        "best_distance": 0.2346,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_152",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.2346
+          },
+          {
+            "id": "chunk_151",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.3671
+          },
+          {
+            "id": "chunk_148",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4541
+          },
+          {
+            "id": "chunk_153",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组",
+            "distance": 0.5086
+          },
+          {
+            "id": "chunk_150",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.557
+          }
+        ]
+      }
+    },
+    {
+      "question": "Excel 怎么筛选数据",
+      "expected_title": "第四讲 > 二.筛选 > 1.使用筛选",
+      "rewritten_query": "Excel 怎么筛选数据",
+      "baseline": {
+        "queries": [
+          "Excel 怎么筛选数据"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3743,
+        "best_distance": 0.3743,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3743
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5544
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6479
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.7845
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.8239
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "Excel 怎么筛选数据"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3744,
+        "best_distance": 0.3744,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3744
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5544
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6479
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.7846
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.824
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "Excel 怎么筛选数据"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3744,
+        "best_distance": 0.3744,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3744
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5544
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6479
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.7846
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.824
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "Excel 怎么筛选数据"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3743,
+        "best_distance": 0.3743,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3743
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5544
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6479
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.7845
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.8239
+          }
+        ]
+      }
+    },
+    {
+      "question": "Linux 怎么查看端口占用",
+      "expected_title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息",
+      "rewritten_query": "Linux 怎么查看端口占用",
+      "baseline": {
+        "queries": [
+          "Linux 怎么查看端口占用"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3631,
+        "best_distance": 0.3631,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_161",
+            "rank": 1,
+            "title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息",
+            "distance": 0.3631
+          },
+          {
+            "id": "chunk_191",
+            "rank": 2,
+            "title": "九.任务布置",
+            "distance": 0.7065
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.7348
+          },
+          {
+            "id": "chunk_166",
+            "rank": 4,
+            "title": "五.服务管理 > 4.开放指定端口 > 4.1检测防火墙是否开启",
+            "distance": 0.7755
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8111
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "Linux 怎么查看端口占用"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3631,
+        "best_distance": 0.3631,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_161",
+            "rank": 1,
+            "title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息",
+            "distance": 0.3631
+          },
+          {
+            "id": "chunk_191",
+            "rank": 2,
+            "title": "九.任务布置",
+            "distance": 0.7066
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.7348
+          },
+          {
+            "id": "chunk_166",
+            "rank": 4,
+            "title": "五.服务管理 > 4.开放指定端口 > 4.1检测防火墙是否开启",
+            "distance": 0.7757
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8111
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "Linux 怎么查看端口占用"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3631,
+        "best_distance": 0.3631,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_161",
+            "rank": 1,
+            "title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息",
+            "distance": 0.3631
+          },
+          {
+            "id": "chunk_191",
+            "rank": 2,
+            "title": "九.任务布置",
+            "distance": 0.7066
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.7348
+          },
+          {
+            "id": "chunk_166",
+            "rank": 4,
+            "title": "五.服务管理 > 4.开放指定端口 > 4.1检测防火墙是否开启",
+            "distance": 0.7757
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8111
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "Linux 怎么查看端口占用"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3631,
+        "best_distance": 0.3631,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_161",
+            "rank": 1,
+            "title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息",
+            "distance": 0.3631
+          },
+          {
+            "id": "chunk_191",
+            "rank": 2,
+            "title": "九.任务布置",
+            "distance": 0.7065
+          },
+          {
+            "id": "chunk_158",
+            "rank": 3,
+            "title": "四.进程管理 > 2.查看系统运行进程",
+            "distance": 0.7348
+          },
+          {
+            "id": "chunk_166",
+            "rank": 4,
+            "title": "五.服务管理 > 4.开放指定端口 > 4.1检测防火墙是否开启",
+            "distance": 0.7755
+          },
+          {
+            "id": "chunk_160",
+            "rank": 5,
+            "title": "四.进程管理 > 4.top监控系统进程",
+            "distance": 0.8111
+          }
+        ]
+      }
+    },
+    {
+      "question": "FastAPI 的路由是什么",
+      "expected_title": "一.FastAPI基础入门 > 2.路由",
+      "rewritten_query": "FastAPI 的路由是什么",
+      "baseline": {
+        "queries": [
+          "FastAPI 的路由是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3763,
+        "best_distance": 0.3763,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_89",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 2.路由",
+            "distance": 0.3763
+          },
+          {
+            "id": "chunk_96",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.6619
+          },
+          {
+            "id": "chunk_88",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.6742
+          },
+          {
+            "id": "chunk_87",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目",
+            "distance": 0.6758
+          },
+          {
+            "id": "chunk_90",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+            "distance": 0.6804
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "FastAPI 的路由是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3763,
+        "best_distance": 0.3763,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_89",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 2.路由",
+            "distance": 0.3763
+          },
+          {
+            "id": "chunk_96",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.6619
+          },
+          {
+            "id": "chunk_88",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.6742
+          },
+          {
+            "id": "chunk_87",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目",
+            "distance": 0.676
+          },
+          {
+            "id": "chunk_90",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+            "distance": 0.6806
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "FastAPI 的路由是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3762,
+        "best_distance": 0.3762,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_89",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 2.路由",
+            "distance": 0.3762
+          },
+          {
+            "id": "chunk_96",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.6618
+          },
+          {
+            "id": "chunk_88",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.674
+          },
+          {
+            "id": "chunk_87",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目",
+            "distance": 0.6759
+          },
+          {
+            "id": "chunk_90",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+            "distance": 0.6803
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "FastAPI 的路由是什么"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3763,
+        "best_distance": 0.3763,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_89",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 2.路由",
+            "distance": 0.3763
+          },
+          {
+            "id": "chunk_96",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.6619
+          },
+          {
+            "id": "chunk_88",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.6743
+          },
+          {
+            "id": "chunk_87",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目",
+            "distance": 0.676
+          },
+          {
+            "id": "chunk_90",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+            "distance": 0.6806
+          }
+        ]
+      }
+    },
+    {
+      "question": "那反向查找怎么做",
+      "expected_title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+      "rewritten_query": "VLOOKUP 如何实现反向查找？",
+      "baseline": {
+        "queries": [
+          "那反向查找怎么做"
+        ],
+        "rank": 2,
+        "expected_distance": 0.9749,
+        "best_distance": 0.9737,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_13",
+            "rank": 1,
+            "title": "第三讲 > 一.查找与替换 > 1.按值查找",
+            "distance": 0.9737
+          },
+          {
+            "id": "chunk_83",
+            "rank": 2,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.9749
+          },
+          {
+            "id": "chunk_14",
+            "rank": 3,
+            "title": "第三讲 > 一.查找与替换 > 2按格式查找",
+            "distance": 1.0197
+          },
+          {
+            "id": "chunk_15",
+            "rank": 4,
+            "title": "第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~",
+            "distance": 1.0634
+          },
+          {
+            "id": "chunk_23",
+            "rank": 5,
+            "title": "第四讲 > 一.排序 > 5.自定义排序次序",
+            "distance": 1.0715
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "它有什么优点。那反向查找怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.9574,
+        "best_distance": 0.9574,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_83",
+            "rank": 1,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.9574
+          },
+          {
+            "id": "chunk_13",
+            "rank": 2,
+            "title": "第三讲 > 一.查找与替换 > 1.按值查找",
+            "distance": 1.0811
+          },
+          {
+            "id": "chunk_132",
+            "rank": 3,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 12.less 用于大文件显示",
+            "distance": 1.112
+          },
+          {
+            "id": "chunk_14",
+            "rank": 4,
+            "title": "第三讲 > 一.查找与替换 > 2按格式查找",
+            "distance": 1.1368
+          },
+          {
+            "id": "chunk_143",
+            "rank": 5,
+            "title": "三.linux实操指令 > 五.搜索查找指令 > 3.管道符",
+            "distance": 1.1655
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那反向查找怎么做",
+          "它有什么优点。那反向查找怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.9574,
+        "best_distance": 0.9574,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_83",
+            "rank": 1,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.9574
+          },
+          {
+            "id": "chunk_13",
+            "rank": 2,
+            "title": "第三讲 > 一.查找与替换 > 1.按值查找",
+            "distance": 0.9736
+          },
+          {
+            "id": "chunk_14",
+            "rank": 3,
+            "title": "第三讲 > 一.查找与替换 > 2按格式查找",
+            "distance": 1.0196
+          },
+          {
+            "id": "chunk_15",
+            "rank": 4,
+            "title": "第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~",
+            "distance": 1.0633
+          },
+          {
+            "id": "chunk_23",
+            "rank": 5,
+            "title": "第四讲 > 一.排序 > 5.自定义排序次序",
+            "distance": 1.0713
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那反向查找怎么做",
+          "它有什么优点。那反向查找怎么做",
+          "VLOOKUP 如何实现反向查找？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.5457,
+        "best_distance": 0.5457,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_83",
+            "rank": 1,
+            "title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较",
+            "distance": 0.5457
+          },
+          {
+            "id": "chunk_76",
+            "rank": 2,
+            "title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法 查找引用函数",
+            "distance": 0.612
+          },
+          {
+            "id": "chunk_80",
+            "rank": 3,
+            "title": "第十一讲 > 一.使用vlookup函数 > 5.hlookup函数",
+            "distance": 0.6543
+          },
+          {
+            "id": "chunk_84",
+            "rank": 4,
+            "title": "第十二讲 > 一.Match与Index函数 > 3.使用match与vlookup函数嵌套返回多列结果",
+            "distance": 0.6975
+          },
+          {
+            "id": "chunk_78",
+            "rank": 5,
+            "title": "第十一讲 > 一.使用vlookup函数 > 3.vlookup模糊查找",
+            "distance": 0.7638
+          }
+        ]
+      }
+    },
+    {
+      "question": "那怎么改密码",
+      "expected_title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+      "rewritten_query": "Linux 怎么修改用户密码",
+      "baseline": {
+        "queries": [
+          "那怎么改密码"
+        ],
+        "rank": 1,
+        "expected_distance": 1.0149,
+        "best_distance": 1.0149,
+        "source@2": false,
+        "source@5": false,
+        "top_k": [
+          {
+            "id": "chunk_107",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 1.0149
+          },
+          {
+            "id": "chunk_151",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 1.0805
+          },
+          {
+            "id": "chunk_152",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 1.0946
+          },
+          {
+            "id": "chunk_110",
+            "rank": 4,
+            "title": "二.系统管理 > 1.linux用户 > 1.5切换用户（重点）",
+            "distance": 1.0982
+          },
+          {
+            "id": "chunk_153",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 6.chgrp改变所属组",
+            "distance": 1.1476
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "那怎么删除。那怎么改密码"
+        ],
+        "rank": 3,
+        "expected_distance": 1.0664,
+        "best_distance": 0.9791,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.9791
+          },
+          {
+            "id": "chunk_115",
+            "rank": 2,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 1.0193
+          },
+          {
+            "id": "chunk_107",
+            "rank": 3,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 1.0664
+          },
+          {
+            "id": "chunk_113",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.3删除组",
+            "distance": 1.1221
+          },
+          {
+            "id": "chunk_175",
+            "rank": 5,
+            "title": "六.软件包管理 > 3.yum包管理 > 3.4卸载",
+            "distance": 1.1252
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那怎么改密码",
+          "那怎么删除。那怎么改密码"
+        ],
+        "rank": 2,
+        "expected_distance": 1.0149,
+        "best_distance": 0.9792,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_108",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.9792
+          },
+          {
+            "id": "chunk_107",
+            "rank": 2,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 1.0149
+          },
+          {
+            "id": "chunk_115",
+            "rank": 3,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 1.0193
+          },
+          {
+            "id": "chunk_151",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 1.0805
+          },
+          {
+            "id": "chunk_152",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 1.0946
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那怎么改密码",
+          "那怎么删除。那怎么改密码",
+          "Linux 怎么修改用户密码"
+        ],
+        "rank": 1,
+        "expected_distance": 0.5615,
+        "best_distance": 0.5615,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_107",
+            "rank": 1,
+            "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+            "distance": 0.5615
+          },
+          {
+            "id": "chunk_110",
+            "rank": 2,
+            "title": "二.系统管理 > 1.linux用户 > 1.5切换用户（重点）",
+            "distance": 0.6641
+          },
+          {
+            "id": "chunk_152",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.7241
+          },
+          {
+            "id": "chunk_115",
+            "rank": 4,
+            "title": "二.系统管理 > 2.linux组管理 > 2.5将用户从指定组删除",
+            "distance": 0.7662
+          },
+          {
+            "id": "chunk_108",
+            "rank": 5,
+            "title": "二.系统管理 > 1.linux用户 > 1.3删除用户",
+            "distance": 0.7674
+          }
+        ]
+      }
+    },
+    {
+      "question": "那 SUMIF 呢",
+      "expected_title": "一.使用sumif函数 > 1、Sumif函数语法",
+      "rewritten_query": "SUMIF 怎么用？",
+      "baseline": {
+        "queries": [
+          "那 SUMIF 呢"
+        ],
+        "rank": 2,
+        "expected_distance": 0.3108,
+        "best_distance": 0.3073,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_66",
+            "rank": 1,
+            "title": "一.使用sumif函数",
+            "distance": 0.3073
+          },
+          {
+            "id": "chunk_67",
+            "rank": 2,
+            "title": "一.使用sumif函数 > 1、Sumif函数语法",
+            "distance": 0.3108
+          },
+          {
+            "id": "chunk_68",
+            "rank": 3,
+            "title": "一.使用sumif函数 > 2、Sumif函数计算数值区间",
+            "distance": 0.3506
+          },
+          {
+            "id": "chunk_71",
+            "rank": 4,
+            "title": "一.使用sumif函数 > 5、在多列中使用Sumif函数",
+            "distance": 0.3668
+          },
+          {
+            "id": "chunk_65",
+            "rank": 5,
+            "title": "第十讲",
+            "distance": 0.3854
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "COUNTIF 怎么用。那 SUMIF 呢"
+        ],
+        "rank": 4,
+        "expected_distance": 0.4285,
+        "best_distance": 0.3418,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_57",
+            "rank": 1,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.3418
+          },
+          {
+            "id": "chunk_58",
+            "rank": 2,
+            "title": "第九讲 > 一.使用countif函数 > 2.countif函数语法",
+            "distance": 0.3967
+          },
+          {
+            "id": "chunk_63",
+            "rank": 3,
+            "title": "第九讲 > 二.常见应用实例 > 3.在条件格式中使用countif函数",
+            "distance": 0.413
+          },
+          {
+            "id": "chunk_67",
+            "rank": 4,
+            "title": "一.使用sumif函数 > 1、Sumif函数语法",
+            "distance": 0.4285
+          },
+          {
+            "id": "chunk_66",
+            "rank": 5,
+            "title": "一.使用sumif函数",
+            "distance": 0.4325
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那 SUMIF 呢",
+          "COUNTIF 怎么用。那 SUMIF 呢"
+        ],
+        "rank": 2,
+        "expected_distance": 0.3106,
+        "best_distance": 0.3072,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_66",
+            "rank": 1,
+            "title": "一.使用sumif函数",
+            "distance": 0.3072
+          },
+          {
+            "id": "chunk_67",
+            "rank": 2,
+            "title": "一.使用sumif函数 > 1、Sumif函数语法",
+            "distance": 0.3106
+          },
+          {
+            "id": "chunk_57",
+            "rank": 3,
+            "title": "第九讲 > 一.使用countif函数 > 1.count函数",
+            "distance": 0.3418
+          },
+          {
+            "id": "chunk_68",
+            "rank": 4,
+            "title": "一.使用sumif函数 > 2、Sumif函数计算数值区间",
+            "distance": 0.3504
+          },
+          {
+            "id": "chunk_71",
+            "rank": 5,
+            "title": "一.使用sumif函数 > 5、在多列中使用Sumif函数",
+            "distance": 0.3666
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那 SUMIF 呢",
+          "COUNTIF 怎么用。那 SUMIF 呢",
+          "SUMIF 怎么用？"
+        ],
+        "rank": 2,
+        "expected_distance": 0.2687,
+        "best_distance": 0.2582,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_66",
+            "rank": 1,
+            "title": "一.使用sumif函数",
+            "distance": 0.2582
+          },
+          {
+            "id": "chunk_67",
+            "rank": 2,
+            "title": "一.使用sumif函数 > 1、Sumif函数语法",
+            "distance": 0.2687
+          },
+          {
+            "id": "chunk_68",
+            "rank": 3,
+            "title": "一.使用sumif函数 > 2、Sumif函数计算数值区间",
+            "distance": 0.3301
+          },
+          {
+            "id": "chunk_65",
+            "rank": 4,
+            "title": "第十讲",
+            "distance": 0.3384
+          },
+          {
+            "id": "chunk_71",
+            "rank": 5,
+            "title": "一.使用sumif函数 > 5、在多列中使用Sumif函数",
+            "distance": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "question": "那生成器和迭代器有什么区别",
+      "expected_title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+      "rewritten_query": "生成器和迭代器有什么区别",
+      "baseline": {
+        "queries": [
+          "那生成器和迭代器有什么区别"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2823,
+        "best_distance": 0.2823,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_208",
+            "rank": 1,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 0.2823
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 0.4875
+          },
+          {
+            "id": "chunk_206",
+            "rank": 3,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 0.676
+          },
+          {
+            "id": "chunk_198",
+            "rank": 4,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 1.2259
+          },
+          {
+            "id": "chunk_197",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2681
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "生成器是什么。那生成器和迭代器有什么区别"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3183,
+        "best_distance": 0.3183,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_208",
+            "rank": 1,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 0.3183
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 0.4756
+          },
+          {
+            "id": "chunk_206",
+            "rank": 3,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 0.6603
+          },
+          {
+            "id": "chunk_197",
+            "rank": 4,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2444
+          },
+          {
+            "id": "chunk_198",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 1.2663
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那生成器和迭代器有什么区别",
+          "生成器是什么。那生成器和迭代器有什么区别"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2822,
+        "best_distance": 0.2822,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_208",
+            "rank": 1,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 0.2822
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 0.4756
+          },
+          {
+            "id": "chunk_206",
+            "rank": 3,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 0.6603
+          },
+          {
+            "id": "chunk_198",
+            "rank": 4,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 1.2258
+          },
+          {
+            "id": "chunk_197",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2444
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那生成器和迭代器有什么区别",
+          "生成器是什么。那生成器和迭代器有什么区别",
+          "生成器和迭代器有什么区别"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2807,
+        "best_distance": 0.2807,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_208",
+            "rank": 1,
+            "title": "第四章-生成器和正则表达式 > 3.生成器和迭代器的区别",
+            "distance": 0.2807
+          },
+          {
+            "id": "chunk_207",
+            "rank": 2,
+            "title": "第四章-生成器和正则表达式 > 2.生成器",
+            "distance": 0.4758
+          },
+          {
+            "id": "chunk_206",
+            "rank": 3,
+            "title": "第四章-生成器和正则表达式 > 1.迭代器",
+            "distance": 0.6604
+          },
+          {
+            "id": "chunk_198",
+            "rank": 4,
+            "title": "第二章-闭包和装饰器 > 3.深浅拷贝",
+            "distance": 1.2259
+          },
+          {
+            "id": "chunk_197",
+            "rank": 5,
+            "title": "第二章-闭包和装饰器 > 2.装饰器",
+            "distance": 1.2446
+          }
+        ]
+      }
+    },
+    {
+      "question": "那怎么返回 HTML 呢",
+      "expected_title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+      "rewritten_query": "FastAPI 怎么返回 HTML？",
+      "baseline": {
+        "queries": [
+          "那怎么返回 HTML 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.745,
+        "best_distance": 0.745,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_96",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.745
+          },
+          {
+            "id": "chunk_95",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型",
+            "distance": 0.978
+          },
+          {
+            "id": "chunk_98",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 自定义响应数据格式",
+            "distance": 1.2452
+          },
+          {
+            "id": "chunk_97",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应文件格式",
+            "distance": 1.2527
+          },
+          {
+            "id": "chunk_135",
+            "rank": 5,
+            "title": "三.linux实操指令 > 二.文件目录相关指令 > 15.重定向输出>和>>",
+            "distance": 1.2945
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "FastAPI 怎么返回文件。那怎么返回 HTML 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2409,
+        "best_distance": 0.2409,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_96",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.2409
+          },
+          {
+            "id": "chunk_95",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型",
+            "distance": 0.3236
+          },
+          {
+            "id": "chunk_97",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应文件格式",
+            "distance": 0.3781
+          },
+          {
+            "id": "chunk_98",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 自定义响应数据格式",
+            "distance": 0.6123
+          },
+          {
+            "id": "chunk_88",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.8187
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那怎么返回 HTML 呢",
+          "FastAPI 怎么返回文件。那怎么返回 HTML 呢"
+        ],
+        "rank": 1,
+        "expected_distance": 0.2411,
+        "best_distance": 0.2411,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_96",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.2411
+          },
+          {
+            "id": "chunk_95",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型",
+            "distance": 0.3237
+          },
+          {
+            "id": "chunk_97",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应文件格式",
+            "distance": 0.3781
+          },
+          {
+            "id": "chunk_98",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 自定义响应数据格式",
+            "distance": 0.6124
+          },
+          {
+            "id": "chunk_88",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.8188
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那怎么返回 HTML 呢",
+          "FastAPI 怎么返回文件。那怎么返回 HTML 呢",
+          "FastAPI 怎么返回 HTML？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.1512,
+        "best_distance": 0.1512,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_96",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应HTML格式",
+            "distance": 0.1512
+          },
+          {
+            "id": "chunk_95",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 4.响应类型",
+            "distance": 0.3236
+          },
+          {
+            "id": "chunk_97",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 响应文件格式",
+            "distance": 0.3781
+          },
+          {
+            "id": "chunk_98",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 4.响应类型 > 自定义响应数据格式",
+            "distance": 0.5755
+          },
+          {
+            "id": "chunk_88",
+            "rank": 5,
+            "title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么访问FastAPI交互式文档",
+            "distance": 0.77
+          }
+        ]
+      }
+    },
+    {
+      "question": "那 Excel 筛选怎么做",
+      "expected_title": "第四讲 > 二.筛选 > 1.使用筛选",
+      "rewritten_query": "Excel 筛选怎么做",
+      "baseline": {
+        "queries": [
+          "那 Excel 筛选怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3908,
+        "best_distance": 0.3908,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3908
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5545
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.684
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.8082
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.8604
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "它有什么好处。那 Excel 筛选怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.5317,
+        "best_distance": 0.5317,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.5317
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.6488
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.8437
+          },
+          {
+            "id": "chunk_20",
+            "rank": 4,
+            "title": "第四讲 > 一.排序 > 2.多条件排序",
+            "distance": 1.019
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 1.0256
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "那 Excel 筛选怎么做",
+          "它有什么好处。那 Excel 筛选怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3909,
+        "best_distance": 0.3909,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3909
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5546
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6841
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.8082
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.8605
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "那 Excel 筛选怎么做",
+          "它有什么好处。那 Excel 筛选怎么做",
+          "Excel 筛选怎么做"
+        ],
+        "rank": 1,
+        "expected_distance": 0.3479,
+        "best_distance": 0.3479,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_25",
+            "rank": 1,
+            "title": "第四讲 > 二.筛选 > 1.使用筛选",
+            "distance": 0.3479
+          },
+          {
+            "id": "chunk_41",
+            "rank": 2,
+            "title": "第六讲 > 一.数据透析表 > 6.利用筛选字段自动创建工作表",
+            "distance": 0.5491
+          },
+          {
+            "id": "chunk_26",
+            "rank": 3,
+            "title": "第四讲 > 二.筛选 > 2.在筛选中使用多个条件",
+            "distance": 0.6306
+          },
+          {
+            "id": "chunk_6",
+            "rank": 4,
+            "title": "二.excel操作技巧 > 4.选中大范围的区域:选中2到900行的所有区域",
+            "distance": 0.789
+          },
+          {
+            "id": "chunk_27",
+            "rank": 5,
+            "title": "第四讲 > 二.筛选 > 3.高级筛选",
+            "distance": 0.8082
+          }
+        ]
+      }
+    },
+    {
+      "question": "它有什么参数",
+      "expected_title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+      "rewritten_query": "chmod 命令有哪些参数？",
+      "baseline": {
+        "queries": [
+          "它有什么参数"
+        ],
+        "rank": null,
+        "expected_distance": null,
+        "best_distance": 0.9888,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_90",
+            "rank": 1,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+            "distance": 0.9888
+          },
+          {
+            "id": "chunk_92",
+            "rank": 2,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 查询参数和query类型注解",
+            "distance": 0.9955
+          },
+          {
+            "id": "chunk_94",
+            "rank": 3,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解",
+            "distance": 1.0258
+          },
+          {
+            "id": "chunk_91",
+            "rank": 4,
+            "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数Path类型注解",
+            "distance": 1.0909
+          },
+          {
+            "id": "chunk_47",
+            "rank": 5,
+            "title": "第七讲 > 二.认识函数 > 2.学习以下函数",
+            "distance": 1.1348
+          }
+        ]
+      },
+      "concat": {
+        "queries": [
+          "Linux 的 chmod 怎么改权限。它有什么参数"
+        ],
+        "rank": 1,
+        "expected_distance": 0.308,
+        "best_distance": 0.308,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_151",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.308
+          },
+          {
+            "id": "chunk_148",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4213
+          },
+          {
+            "id": "chunk_152",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.5322
+          },
+          {
+            "id": "chunk_150",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.5523
+          },
+          {
+            "id": "chunk_154",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 7.总结",
+            "distance": 0.5699
+          }
+        ]
+      },
+      "dual": {
+        "queries": [
+          "它有什么参数",
+          "Linux 的 chmod 怎么改权限。它有什么参数"
+        ],
+        "rank": 1,
+        "expected_distance": 0.308,
+        "best_distance": 0.308,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_151",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.308
+          },
+          {
+            "id": "chunk_148",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4213
+          },
+          {
+            "id": "chunk_152",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.5322
+          },
+          {
+            "id": "chunk_150",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.5523
+          },
+          {
+            "id": "chunk_154",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 7.总结",
+            "distance": 0.5699
+          }
+        ]
+      },
+      "all": {
+        "queries": [
+          "它有什么参数",
+          "Linux 的 chmod 怎么改权限。它有什么参数",
+          "chmod 命令有哪些参数？"
+        ],
+        "rank": 1,
+        "expected_distance": 0.308,
+        "best_distance": 0.308,
+        "source@2": true,
+        "source@5": true,
+        "top_k": [
+          {
+            "id": "chunk_151",
+            "rank": 1,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限",
+            "distance": 0.308
+          },
+          {
+            "id": "chunk_148",
+            "rank": 2,
+            "title": "三.linux实操指令 > 七.文件权限指令",
+            "distance": 0.4212
+          },
+          {
+            "id": "chunk_152",
+            "rank": 3,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+            "distance": 0.5323
+          },
+          {
+            "id": "chunk_150",
+            "rank": 4,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 3.操作演示",
+            "distance": 0.5522
+          },
+          {
+            "id": "chunk_154",
+            "rank": 5,
+            "title": "三.linux实操指令 > 七.文件权限指令 > 7.总结",
+            "distance": 0.57
+          }
+        ]
+      }
+    }
+  ]
+}

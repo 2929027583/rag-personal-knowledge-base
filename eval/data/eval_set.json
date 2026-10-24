@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Excel 里怎么对一列数据做简单排序？",
+    "expected_title": "第四讲 > 一.排序 > 1.简单排序"
+  },
+  {
+    "question": "Excel 怎么筛选出符合条件的数据？",
+    "expected_title": "第四讲 > 二.筛选 > 1.使用筛选"
+  },
+  {
+    "question": "高级筛选的条件区域怎么设置？",
+    "expected_title": "第四讲 > 二.筛选 > 3.高级筛选"
+  },
+  {
+    "question": "怎么限制单元格只能输入整数？",
+    "expected_title": "第五讲 > 二.设置数据验证 > 1.设置整数数据验证"
+  },
+  {
+    "question": "数据透视表怎么创建？",
+    "expected_title": "第六讲 > 一.数据透析表 > 1.创建数据透析表"
+  },
+  {
+    "question": "公式报错时怎么用 IF 函数处理？",
+    "expected_title": "第八讲. > 一.使用if函数 > 4.用if函数处理运算错误 iserror函数"
+  },
+  {
+    "question": "COUNTIF 函数的语法是什么？",
+    "expected_title": "第九讲 > 一.使用countif函数 > 2.countif函数语法"
+  },
+  {
+    "question": "COUNTIFS 和 COUNTIF 有什么区别？",
+    "expected_title": "第九讲 > 三.2007及以上版本的countifs函数"
+  },
+  {
+    "question": "VLOOKUP 的四个参数分别是什么意思？",
+    "expected_title": "第十一讲 > 一.使用vlookup函数 > 1.vlookup函数语法  查找引用函数"
+  },
+  {
+    "question": "MATCH + INDEX 和 VLOOKUP 有什么区别？",
+    "expected_title": "第十二讲 > 一.Match与Index函数 > 2.match+index与vlookup函数比较"
+  },
+  {
+    "question": "Linux 怎么添加一个新用户？",
+    "expected_title": "二.系统管理 > 1.linux用户 > 1.2添加用户"
+  },
+  {
+    "question": "Linux 怎么切换用户？",
+    "expected_title": "二.系统管理 > 1.linux用户 > 1.5切换用户（重点）"
+  },
+  {
+    "question": "Linux 怎么创建用户组？",
+    "expected_title": "二.系统管理 > 2.linux组管理 > 2.2添加组"
+  },
+  {
+    "question": "cd 命令怎么切换到指定目录？",
+    "expected_title": "三.linux实操指令 > 二.文件目录相关指令 > 3.cd切换目录"
+  },
+  {
+    "question": "rm 删除目录要加什么参数？",
+    "expected_title": "三.linux实操指令 > 二.文件目录相关指令 > 8.rm删除目录，文件"
+  },
+  {
+    "question": "怎么实时查看日志文件的末尾？",
+    "expected_title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容"
+  },
+  {
+    "question": "find 命令怎么按名称查找文件？",
+    "expected_title": "三.linux实操指令 > 五.搜索查找指令 > 1.find查找文件或目录"
+  },
+  {
+    "question": "grep 怎么在文件里搜索关键字？",
+    "expected_title": "三.linux实操指令 > 五.搜索查找指令 > 4.grep过滤查找"
+  },
+  {
+    "question": "chmod 怎么修改文件权限？",
+    "expected_title": "三.linux实操指令 > 七.文件权限指令 > 4.chmod 改变文件和目录的权限"
+  },
+  {
+    "question": "怎么查看某个端口被哪个进程占用？",
+    "expected_title": "四.进程管理 > 5.netstat显示网络状态或者端口占用信息"
+  },
+  {
+    "question": "FastAPI 项目怎么启动？",
+    "expected_title": "一.FastAPI基础入门 > 1.第一个FastAPI项目 > 怎么运行FastAPI项目"
+  },
+  {
+    "question": "FastAPI 的路由是什么？",
+    "expected_title": "一.FastAPI基础入门 > 2.路由"
+  },
+  {
+    "question": "FastAPI 的查询参数怎么定义？",
+    "expected_title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 查询参数和query类型注解"
+  },
+  {
+    "question": "FastAPI 怎么返回 4xx 错误？",
+    "expected_title": "一.FastAPI基础入门 > 4.响应类型 > 异常响应处理"
+  },
+  {
+    "question": "FastAPI 的依赖注入有什么用？",
+    "expected_title": "二.FastAPI进阶 > 2.依赖注入"
+  },
+  {
+    "question": "面向对象的三大特征是什么？",
+    "expected_title": "第一章-面向对象基础 > 2.面向对象特征介绍"
+  },
+  {
+    "question": "Python 闭包是什么？",
+    "expected_title": "第二章-闭包和装饰器 > 1.闭包"
+  },
+  {
+    "question": "装饰器的作用是什么？",
+    "expected_title": "第二章-闭包和装饰器 > 2.装饰器"
+  },
+  {
+    "question": "深拷贝和浅拷贝有什么区别？",
+    "expected_title": "第二章-闭包和装饰器 > 3.深浅拷贝"
+  },
+  {
+    "question": "TCP 和 UDP 有什么区别？",
+    "expected_title": "第三章-网编和多线程 > 4.协议"
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "question": "红烧肉怎么做",
+    "best_distance": 1.3928,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "六.软件包管理 > 1.文件上传与下载",
+        "distance": 1.3928
+      },
+      {
+        "rank": 2,
+        "title": "第十二讲",
+        "distance": 1.395
+      },
+      {
+        "rank": 3,
+        "title": "第十一讲",
+        "distance": 1.4244
+      },
+      {
+        "rank": 4,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 15.重定向输出>和>>",
+        "distance": 1.4581
+      },
+      {
+        "rank": 5,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 3.cd切换目录",
+        "distance": 1.462
+      }
+    ]
+  },
+  {
+    "question": "今天天气怎么样",
+    "best_distance": 1.2309,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "三.linux实操指令 > 四.时间日期指令 > 1.date 指令",
+        "distance": 1.2309
+      },
+      {
+        "rank": 2,
+        "title": "三.linux实操指令 > 四.时间日期指令 > 2.cal查看日历",
+        "distance": 1.2322
+      },
+      {
+        "rank": 3,
+        "title": "八.shell学习 > 4.shell语法 > 3.条件语句",
+        "distance": 1.3454
+      },
+      {
+        "rank": 4,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 6.touch创建空文件",
+        "distance": 1.3597
+      },
+      {
+        "rank": 5,
+        "title": "第十一讲",
+        "distance": 1.3628
+      }
+    ]
+  },
+  {
+    "question": "股票怎么开户",
+    "best_distance": 1.1867,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+        "distance": 1.1867
+      },
+      {
+        "rank": 2,
+        "title": "二.系统管理 > 1.linux用户 > 1.1概述",
+        "distance": 1.2848
+      },
+      {
+        "rank": 3,
+        "title": "一.目录结构 > 进入根目录",
+        "distance": 1.3159
+      },
+      {
+        "rank": 4,
+        "title": "二.系统管理 > 1.linux用户 > 1.5切换用户（重点）",
+        "distance": 1.3242
+      },
+      {
+        "rank": 5,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 3.cd切换目录",
+        "distance": 1.3263
+      }
+    ]
+  },
+  {
+    "question": "推荐一部好看的电影",
+    "best_distance": 1.3326,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 11.more把文件内容分屏查看",
+        "distance": 1.3326
+      },
+      {
+        "rank": 2,
+        "title": "三.linux实操指令 > 三.查看日志常用 > 2.tail 显示文件尾部内容",
+        "distance": 1.3697
+      },
+      {
+        "rank": 3,
+        "title": "三.linux实操指令 > 三.查看日志常用 > 1.head 显示文件头部内容",
+        "distance": 1.3786
+      },
+      {
+        "rank": 4,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 13.head 显示文件头部内容",
+        "distance": 1.3828
+      },
+      {
+        "rank": 5,
+        "title": "第十二讲",
+        "distance": 1.3842
+      }
+    ]
+  },
+  {
+    "question": "如何减肥",
+    "best_distance": 1.3391,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "二.excel操作技巧 > 5.快速删除多张工作表：选中一张工作表，按住ctrl,在选择其他表",
+        "distance": 1.3391
+      },
+      {
+        "rank": 2,
+        "title": "第十二讲",
+        "distance": 1.3534
+      },
+      {
+        "rank": 3,
+        "title": "一.工作区，工作簿，工作表的联系 > 你在一页纸上写字 → 操作工作表你把整本书保存 → 保存工作簿",
+        "distance": 1.3762
+      },
+      {
+        "rank": 4,
+        "title": "第四讲 > 一.排序 > 3.2003版本时超过三个排序条件时如何处理",
+        "distance": 1.3872
+      },
+      {
+        "rank": 5,
+        "title": "一.单元格格式设置 > 1.使用单元格格式工具美化表格 > 边框调整",
+        "distance": 1.4008
+      }
+    ]
+  },
+  {
+    "question": "英语怎么学",
+    "best_distance": 1.3371,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "第十二讲",
+        "distance": 1.3371
+      },
+      {
+        "rank": 2,
+        "title": "第七讲 > 二.认识函数 > 1.如何使用函数",
+        "distance": 1.35
+      },
+      {
+        "rank": 3,
+        "title": "第十一讲",
+        "distance": 1.3596
+      },
+      {
+        "rank": 4,
+        "title": "八.shell学习 > 4.shell语法 > 5.函数",
+        "distance": 1.3953
+      },
+      {
+        "rank": 5,
+        "title": "第七讲 > 一.认识excel公式",
+        "distance": 1.4104
+      }
+    ]
+  },
+  {
+    "question": "怎么理财",
+    "best_distance": 1.2351,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "第十一讲",
+        "distance": 1.2351
+      },
+      {
+        "rank": 2,
+        "title": "第十二讲",
+        "distance": 1.2382
+      },
+      {
+        "rank": 3,
+        "title": "一.目录结构 > 目录结果详解 > 其他目录",
+        "distance": 1.2563
+      },
+      {
+        "rank": 4,
+        "title": "第七讲 > 二.认识函数",
+        "distance": 1.2588
+      },
+      {
+        "rank": 5,
+        "title": "第七讲 > 二.认识函数 > 1.如何使用函数",
+        "distance": 1.2617
+      }
+    ]
+  },
+  {
+    "question": "怎么养猫",
+    "best_distance": 1.3118,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "三.linux实操指令 > 二.文件目录相关指令 > 10.cat查看文件内容",
+        "distance": 1.3118
+      },
+      {
+        "rank": 2,
+        "title": "六.软件包管理 > 3.yum包管理 > 3.2安装",
+        "distance": 1.3557
+      },
+      {
+        "rank": 3,
+        "title": "三.linux实操指令 > 四.时间日期指令 > 2.cal查看日历",
+        "distance": 1.3709
+      },
+      {
+        "rank": 4,
+        "title": "八.shell学习 > 5.正则匹配",
+        "distance": 1.3746
+      },
+      {
+        "rank": 5,
+        "title": "第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~",
+        "distance": 1.405
+      }
+    ]
+  },
+  {
+    "question": "世界首富是谁",
+    "best_distance": 1.3809,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "三.linux实操指令 > 七.文件权限指令 > 5.chown改变所有者",
+        "distance": 1.3809
+      },
+      {
+        "rank": 2,
+        "title": "第三讲 > 一.查找与替换 > 4.模糊查找 认识通配符 ？* ~",
+        "distance": 1.3839
+      },
+      {
+        "rank": 3,
+        "title": "八.shell学习 > 3.shell脚本快速入门 > 2.第一个shell脚本",
+        "distance": 1.3925
+      },
+      {
+        "rank": 4,
+        "title": "第四讲 > 一.排序 > 4.按颜色排序",
+        "distance": 1.4179
+      },
+      {
+        "rank": 5,
+        "title": "第四讲 > 一.排序 > 5.自定义排序次序",
+        "distance": 1.4263
+      }
+    ]
+  },
+  {
+    "question": "怎么申请护照",
+    "best_distance": 1.2669,
+    "has_source": false,
+    "top_k": [
+      {
+        "rank": 1,
+        "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数",
+        "distance": 1.2669
+      },
+      {
+        "rank": 2,
+        "title": "二.系统管理 > 1.linux用户 > 1.2添加用户",
+        "distance": 1.2806
+      },
+      {
+        "rank": 3,
+        "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数",
+        "distance": 1.3109
+      },
+      {
+        "rank": 4,
+        "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 路径参数Path类型注解",
+        "distance": 1.3619
+      },
+      {
+        "rank": 5,
+        "title": "一.FastAPI基础入门 > 3.参数简介和路径参数 > 请求体参数和Field类型注解",
+        "distance": 1.3731
+      }
+    ]
+  }
+]
